@@ -1713,6 +1713,9 @@ def test_the_sampling_window_does_not_grow_without_bound():
     for _ in range(40):
         monitor.take()
     assert len(monitor.samples) == 10
+    # Y de paso: leer memoria y CPU depende del sistema operativo, y el respaldo de Windows
+    # devuelve 0 si la estructura de psapi quedó mal declarada.
+    assert monitor.samples[-1].rss > 0 and monitor.samples[-1].cpu > 0
 
 
 def test_the_three_drawers_are_mutually_exclusive():

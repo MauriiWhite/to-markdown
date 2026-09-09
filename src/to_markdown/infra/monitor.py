@@ -15,7 +15,7 @@ un medidor que no se usa.
 from __future__ import annotations
 
 import os
-import resource
+import sys
 import threading
 import time
 from dataclasses import dataclass, field
@@ -26,6 +26,54 @@ _LOCK = threading.Lock()
 _COUNTERS: dict[str, float] = {}
 _STARTED = time.perf_counter()
 PAGE_SIZE = os.sysconf("SC_PAGE_SIZE") if hasattr(os, "sysconf") else 4096
+
+# El respaldo de memoria residente se elige al importar y no en cada muestra: la plataforma
+# no cambia a mitad de corrida, y `resource` sencillamente no existe en Windows.
+if sys.platform == "win32":
+    import ctypes
+
+    class _MemoryCounters(ctypes.Structure):
+        """`PROCESS_MEMORY_COUNTERS` de psapi.h.
+
+        Solo interesa `working_set`, pero la llamada escribe la estructura entera, así que
+        hay que declararla completa o el buffer se queda corto.
+        """
+
+        _fields_ = (
+            # `DWORD` es de 32 bits fijos; `c_ulong` acierta en Windows pero mide 8 bytes
+            # en Linux, y con eso la estructura ya no se puede verificar fuera de Windows.
+            ("cb", ctypes.c_uint32),
+            ("page_faults", ctypes.c_uint32),
+            ("peak_working_set", ctypes.c_size_t),
+            ("working_set", ctypes.c_size_t),
+            ("quota_peak_paged_pool", ctypes.c_size_t),
+            ("quota_paged_pool", ctypes.c_size_t),
+            ("quota_peak_nonpaged_pool", ctypes.c_size_t),
+            ("quota_nonpaged_pool", ctypes.c_size_t),
+            ("pagefile", ctypes.c_size_t),
+            ("peak_pagefile", ctypes.c_size_t),
+        )
+
+    # `GetCurrentProcess()` siempre devuelve este pseudo-handle. Pedirlo por API obligaría
+    # a declararle `restype`, porque el `c_int` por defecto lo truncaría a 32 bits en x64.
+    _CURRENT_PROCESS = ctypes.c_void_p(-1)
+
+    def _resident_fallback() -> int:
+        """El *working set*, que es lo que Windows llama memoria residente."""
+        counters = _MemoryCounters()
+        counters.cb = ctypes.sizeof(counters)
+        ok = ctypes.windll.psapi.GetProcessMemoryInfo(
+            _CURRENT_PROCESS, ctypes.byref(counters), counters.cb
+        )
+        return counters.working_set if ok else 0
+
+else:
+    import resource
+
+    def _resident_fallback() -> int:
+        """`getrusage` devuelve el MÁXIMO histórico y no el actual, así que solo sirve para
+        no quedarse sin dato en un Unix sin `/proc`."""
+        return resource.getrusage(resource.RUSAGE_SELF).ru_maxrss * 1024
 
 
 def bump(name: str, amount: float = 1) -> None:
@@ -51,20 +99,23 @@ def reset() -> None:
 def rss_bytes() -> int:
     """Memoria residente del proceso.
 
-    `/proc/self/statm` es exacto y cuesta una lectura; `getrusage` es el respaldo portable,
-    pero devuelve el MÁXIMO histórico y no el actual, así que solo sirve para no quedarse
-    sin dato en un sistema donde no haya `/proc`.
+    `/proc/self/statm` es exacto y cuesta una lectura; el respaldo por sistema operativo
+    solo entra donde no hay `/proc`.
     """
     try:
         with open("/proc/self/statm", encoding="ascii") as fh:
             return int(fh.read().split()[1]) * PAGE_SIZE
     except (OSError, IndexError, ValueError):
-        return resource.getrusage(resource.RUSAGE_SELF).ru_maxrss * 1024
+        return _resident_fallback()
 
 
 def cpu_seconds() -> float:
-    usage = resource.getrusage(resource.RUSAGE_SELF)
-    return usage.ru_utime + usage.ru_stime
+    """Tiempo de CPU (usuario + sistema) del proceso.
+
+    `process_time` es exactamente `ru_utime + ru_stime` y existe en todas las plataformas,
+    así que `getrusage` no aporta nada acá salvo dejar fuera a Windows.
+    """
+    return time.process_time()
 
 
 @dataclass

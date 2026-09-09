@@ -115,7 +115,7 @@ def sample_text(path: Path, pages: int) -> str:
         done = subprocess.run(
             ["pdftotext", "-enc", "UTF-8", "-f", str(first), "-l", str(min(pages, first + span - 1)),
              str(path), "-"],
-            capture_output=True, text=True, check=False,
+            capture_output=True, text=True, encoding="utf-8", check=False,
         )
         if done.returncode == 0:
             out.append(done.stdout)
