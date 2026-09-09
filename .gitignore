@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Contenido descargado y generado: el pipeline lo reconstruye solo.
+# `data/web/*/state/` es la excepción — guarda el historial de corridas y la línea base
+# del changelog, que no se repone. Si vas a borrar `data/`, sálvalo antes.
+data/
+output/
+assets/
+
+# Herramientas
+.pytest_cache/
+.ruff_cache/
+.env

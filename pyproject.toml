@@ -1,0 +1,40 @@
+[project]
+name = "to-markdown"
+version = "0.1.0"
+description = "Convierte fuentes documentales a Markdown verificable. Primera fuente: el Compendio de Normas del Sistema de Pensiones (SP)."
+readme = "README.md"
+authors = [
+    { name = "Maurii White", email = "mauriblanco.s@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fake-useragent>=2.2.0",
+    "pillow>=10.0",         # compara las figuras del PDF contra las del portal
+    "textual>=0.80",        # la TUI; el pipeline corre sin ella (import perezoso)
+    "textual-plotext>=1.0", # los gráficos de línea del panel de rendimiento
+]
+
+[project.scripts]
+# Apunta al módulo donde vive `main`. `to_markdown:main` obligaría al `__init__` a importar
+# el CLI, y el CLI importa el paquete: un ciclo por una línea de conveniencia.
+to-markdown = "to_markdown.__main__:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+# El canario toca el sitio en vivo: se pide explícitamente con `-m network`.
+addopts = "-m 'not network'"
+markers = ["network: golpea spensiones.cl; corre con `uv run pytest -m network`"]
+
+[tool.ruff]
+line-length = 100

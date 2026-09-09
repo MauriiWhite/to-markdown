@@ -1,0 +1,87 @@
+# Configuración del pipeline de extracción del Compendio de Pensiones.
+# Solo va acá lo que de verdad se ajusta.
+
+[crawl]
+base_url = "https://www.spensiones.cl/portal/compendio/596/"
+# MEDIDO: con 8 hilos el sitio responde 502. Con 3 completa el árbol sin fallos.
+max_workers = 3
+max_retries = 6
+timeout = 40
+
+# Los 5 Libros del Compendio, cada uno con su carpeta bajo `data/`.
+#
+# El `slug` es un identificador de esquema y va en inglés, como toda clave del proyecto; el
+# numeral romano se conserva porque es como la SP numera sus Libros. El nombre completo en
+# español vive en `name`, que es prosa y no identificador.
+#
+# Se nombra por el numeral y NO por el título: la SP ya renombró los Libros I y V (hoy
+# conviven 39 documentos con el título anterior en su breadcrumb), y una carpeta nombrada
+# por el título se habría partido en dos con ese cambio. El `pvid` raíz, en cambio, no ha
+# cambiado nunca: es la única clave estable del árbol.
+#
+# `min_documents` y `min_units` son cotas inferiores MEDIDAS sobre el corpus (sept. 2026)
+# con ~12% de holgura. El Compendio crece, no se encoge: caer bajo estos números significa
+# que la extracción de ESE Libro se rompió, no que la norma cambió.
+
+[[books]]
+slug = "book-i"
+pdf_file = "Book1.pdf"
+pvid = "2536"
+name = "Libro I. Afiliación al Sistema de Pensiones"
+min_documents = 112   # medido: 128
+min_units = 1390      # medido: 1.582
+
+[[books]]
+slug = "book-ii"
+pdf_file = "Book2.pdf"
+pvid = "2748"
+name = "Libro II. Cotizaciones Previsionales"
+min_documents = 146   # medido: 166
+min_units = 970       # medido: 1.103
+
+[[books]]
+slug = "book-iii"
+pdf_file = "Book3.pdf"
+pvid = "2815"
+name = "Libro III. Beneficios Previsionales"
+min_documents = 450   # medido: 511
+min_units = 1710      # medido: 1.953
+
+[[books]]
+slug = "book-iv"
+pdf_file = "Book4.pdf"
+pvid = "2538"
+name = "Libro IV. Fondos de Pensiones y Regulación de Conflictos de Intereses"
+min_documents = 230   # medido: 261
+min_units = 1550      # medido: 1.767
+
+[[books]]
+slug = "book-v"
+pdf_file = "Book5.pdf"
+pvid = "2539"
+name = "Libro V. Aspectos Administrativos y Operacionales"
+min_documents = 137   # medido: 156
+min_units = 700       # medido: 799
+
+[export]
+# Nivel del Compendio al que se agrupa cada archivo Markdown: "title", "letter" o
+# "chapter". Por defecto el Título, que es como la norma se cita y se modifica entera y
+# como la SP encabeza cada página de su PDF; sus Letras y Capítulos van dentro del mismo
+# archivo, anidados como encabezados.
+group_by = "title"
+
+[compare]
+# Tamaño del n-grama de palabras con que se contrasta PDF contra web. Con 8, un párrafo
+# reordenado no se cuenta como contenido nuevo y una frase agregada sí se ve.
+shingle = 8
+# MEDIDO: entre el `path` y el título real, el PDF mete un encabezado corrido que a veces
+# difiere (sin el punto tras el numeral; un caso con la errata "traspado"). 300 los cubre.
+heading_gap = 300
+# Caracteres del cuerpo que sirven de ancla cuando el encabezado del PDF no calza con el
+# de la web: 16 capítulos del corpus dependen de este respaldo para no salir como ausentes.
+body_anchor = 120
+
+[paths]
+data = "data"
+assets = "assets"
+output = "output"
