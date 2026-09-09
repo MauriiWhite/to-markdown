@@ -13,7 +13,7 @@ wheels/
 # `data/web/*/state/` es la excepción — guarda el historial de corridas y la línea base
 # del changelog, que no se repone. Si vas a borrar `data/`, sálvalo antes.
 data/
-output/
+# output/
 assets/
 
 # Herramientas
