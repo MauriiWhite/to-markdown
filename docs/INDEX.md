@@ -17,13 +17,14 @@ dividido el código. Si no sabés por dónde empezar, empieza por la primera fil
 | Saber qué hace cada etapa y qué archivos escribe | [pipeline.md](PIPELINE.md) | Referencia |
 | Consumir los datos: claves, tipos, formatos | [schemas.md](SCHEMAS.md) | Referencia |
 | Entender por qué está hecho así | [architecture.md](ARCHITECTURE.md) | Explicación |
+| Montar el agente ARI en Microsoft Copilot Studio sobre `output/` | [PROMPT.md](PROMPT.md) | Guía práctica |
 
 Documentos vecinos, fuera de `docs/`:
 
 - [`../README.md`](../README.md) — presentación del proyecto y sus resultados medidos.
 - [`../AGENTS.md`](../AGENTS.md) — contrato de trabajo para agentes que modifiquen el repo.
 - [`../config.toml`](../config.toml) — la única configuración que se ajusta.
-- `../output/README.md` — se **genera**; describe el entregable para quien lo recibe.
+- `../output/index.md` — se **genera**; describe el entregable para quien lo recibe.
 
 ## El proyecto en un párrafo
 

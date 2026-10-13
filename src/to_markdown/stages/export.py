@@ -21,6 +21,9 @@ from ..core import BOOKS, CONFIG, Book
 
 BASE = CONFIG["crawl"]["base_url"]
 GROUP_BY = CONFIG["export"]["group_by"]
+MAX_WORDS = CONFIG["export"]["max_words"]
+MIN_TAIL = CONFIG["export"]["min_tail_words"]
+WORD = re.compile(r"\w+")
 MARKER = re.compile(r"\[\[FIG:([0-9a-f]{64})\]\]")
 MISSING = re.compile(r"\[\[FIG-MISSING:([^\]]+)\]\]")
 
@@ -98,19 +101,59 @@ def slugify(text: str) -> str:
     return re.sub(r"-{2,}", "-", re.sub(r"[^a-z0-9]+", "-", text.lower())).strip("-")[:70]
 
 
-def sections(manifest: dict, documents: list[dict], level: str = GROUP_BY) -> list[dict]:
+def word_sizes(documents) -> dict[str, int]:
+    """Palabras de cada norma, por pvid. Siempre del lado web: es lo que decide dónde se
+    parte un Título, y el lado PDF tiene que partirlo en el mismo lugar."""
+    return {d["pvid"]: len(WORD.findall(d["markdown"])) for d in documents}
+
+
+def split(pvids: list[str], sizes: dict[str, int], cap: int = MAX_WORDS,
+          tail: int = MIN_TAIL) -> list[list[str]]:
+    """Reparte las normas de un Título en partes de hasta `cap` palabras, en orden.
+
+    Se corta solo entre normas, nunca dentro: la cita "Capítulo XXIV, N° 3" tiene que
+    quedar entera en un archivo. Por eso una norma que sola supera el tope queda sola en su
+    parte, aunque se pase. Una última parte de menos de `tail` palabras se funde con la
+    anterior: un archivo de 600 palabras separado del resto obliga a abrir dos para leer
+    lo que cabía en uno.
+    """
+    parts: list[list[str]] = [[]]
+    total = 0
+    for pvid in pvids:
+        size = sizes.get(pvid, 0)
+        if parts[-1] and total + size > cap:
+            parts.append([])
+            total = 0
+        parts[-1].append(pvid)
+        total += size
+    if len(parts) > 1 and sum(sizes.get(p, 0) for p in parts[-1]) < tail:
+        last = parts.pop()
+        parts[-1] += last
+    return parts
+
+
+def sections(manifest: dict, documents: list[dict], sizes: dict[str, int],
+             level: str = GROUP_BY) -> list[dict]:
     """Los documentos agrupados en archivos, en orden de lectura del Compendio.
 
     Por defecto un archivo por **Título**: es la unidad con la que la norma se cita y se
     modifica entera ("el Título III del Libro I"), y con la que la SP encabeza cada página
     de su PDF. Las Letras y Capítulos que cuelgan de él no se leen sueltos, así que van
-    dentro del mismo archivo como jerarquía de encabezados.
+    dentro del mismo archivo como jerarquía de encabezados. Un Título que pasa de
+    `max_words` se parte en varios archivos (`part`/`parts`), cortando entre normas.
 
-    Los grupos y su numeración salen del **manifiesto completo**, no de los documentos que
-    se pasan. Es lo que hace que el nombre de archivo sea estable: el lado PDF recibe solo
-    los capítulos que logró alinear, y si el número ordinal se calculara sobre ese
-    subconjunto, cada capítulo sin alinear correría todos los siguientes y los dos árboles
-    dejarían de poder compararse con un `diff`.
+    Los grupos, su numeración y sus cortes salen del **manifiesto completo** y de `sizes`
+    (las palabras del lado web), no de los documentos que se pasan. Es lo que hace que el
+    nombre de archivo sea estable: el lado PDF recibe solo los capítulos que logró alinear,
+    y si el ordinal o los cortes se calcularan sobre ese subconjunto, cada capítulo sin
+    alinear correría todos los siguientes y los dos árboles dejarían de poder compararse
+    con un `diff`.
+
+    El nombre es `<correlativo>-<Título>-<slug>[-parte-N].md`. El correlativo numera los
+    archivos del Libro en orden de lectura, contando las partes, para que la lista se siga
+    sin saltos aunque un Título ocupe diez archivos; el número del Título va a continuación
+    para que se vea a qué Título pertenece cada parte. El correlativo cuenta también las
+    partes que este subconjunto no trae, por la misma razón que el ordinal.
     """
     nodes = manifest["nodes"]
     by_pvid = {d["pvid"]: d for d in documents}
@@ -119,21 +162,65 @@ def sections(manifest: dict, documents: list[dict], level: str = GROUP_BY) -> li
         groups.setdefault(group_of(pvid, nodes, level), []).append(pvid)
 
     out = []
+    sequence = 0
     for index, (pvid, member_ids) in enumerate(groups.items(), start=1):
-        members = [by_pvid[m] for m in member_ids if m in by_pvid]
-        if not members:
-            continue
-        title = nodes[pvid]["title"] or members[0]["title"]
-        out.append({
-            "pvid": pvid,
-            "title": title,
-            "path": members[0]["path"],
-            "level": level,
-            "index": index,
-            "filename": f"{index}-{slugify(title)}.md",
-            "documents": members,
-        })
+        parts = split(member_ids, sizes)
+        for part, part_ids in enumerate(parts, start=1):
+            sequence += 1
+            members = [by_pvid[m] for m in part_ids if m in by_pvid]
+            if not members:
+                continue
+            title = nodes[pvid]["title"] or members[0]["title"]
+            record = {
+                "pvid": pvid,
+                "title": title,
+                "path": members[0]["path"],
+                "level": level,
+                "index": index,
+                "sequence": sequence,
+                "part": part,
+                "parts": len(parts),
+                "documents": members,
+            }
+            out.append(record | {"filename": part_name(record, part)})
     return out
+
+
+def heading(section: dict) -> str:
+    """El `#` del archivo. Una parte lo declara en el propio título para que nadie la lea
+    creyendo que tiene el Título entero."""
+    if section["parts"] == 1:
+        return f"# {section['title']}"
+    return f"# {section['title']} — Parte {section['part']} de {section['parts']}"
+
+
+def part_name(section: dict, part: int) -> str:
+    """Nombre de archivo de una parte del Título de `section`, sea la propia u otra.
+
+    Se calcula y no se busca en la lista de secciones porque el lado PDF puede no tener esa
+    parte y el enlace tiene que seguir apuntando a la del lado web. Las partes de un Título
+    son correlativas, así que el correlativo de otra se obtiene por diferencia.
+    """
+    sequence = section["sequence"] + part - section["part"]
+    suffix = f"-parte-{part}" if section["parts"] > 1 else ""
+    # Ceros a la izquierda para que `ls` y cualquier explorador los ordenen como se leen.
+    # ponytail: dos dígitos alcanzan (el Libro más largo tiene 45 archivos); el test de
+    # orden avisa si un Libro pasa de 99 y hay que subir el ancho.
+    return f"{sequence:02d}-{section['index']:02d}-{slugify(section['title'])}{suffix}.md"
+
+
+def navigation(section: dict) -> list[str]:
+    """La línea que une las partes de un Título: sin ella, un modelo que abre la parte 3
+    no sabe que hubo una 2 ni que viene una 4."""
+    if section["parts"] == 1:
+        return []
+    hops = []
+    if section["part"] > 1:
+        hops.append(f"anterior: `{part_name(section, section['part'] - 1)}`")
+    if section["part"] < section["parts"]:
+        hops.append(f"siguiente: `{part_name(section, section['part'] + 1)}`")
+    return [(f"*Parte {section['part']} de {section['parts']} de este Título · "
+             f"{' · '.join(hops)}*"), ""]
 
 
 def demote(markdown: str, levels: int = 2) -> str:
@@ -163,14 +250,17 @@ def section_markdown(
         f"section_pvid: {section['pvid']}",
         f"level: {section['level']}",
         f"order: {section['index']}",
+        f"part: {section['part']}",
+        f"parts: {section['parts']}",
         f"title: {json.dumps(section['title'], ensure_ascii=False)}",
         f"path: {json.dumps(section['path'], ensure_ascii=False)}",
         f"documents: {json.dumps([d['pvid'] for d in members], ensure_ascii=False)}",
         "source: web",
         "---",
         "",
-        f"# {section['title']}",
+        heading(section),
         "",
+        *navigation(section),
     ]
     emitted = {section["pvid"]}
     for document in members:
@@ -189,12 +279,20 @@ def section_markdown(
             lines += [f"{'#' * min(6, depth)} {nodes[pvid]['title']}", ""]
 
         level = min(6, len(chain) + 1)
+        # La cita y la fuente van como texto visible, una al abrir y otra al cerrar cada
+        # norma. Un buscador que corta el archivo en fragmentos entrega un trozo de la parte
+        # 6 sin los encabezados de arriba; con la cita a la vista el trozo sigue diciendo de
+        # qué Libro, Título y Capítulo es. Y la URL iba en un comentario HTML, que muchos
+        # indexadores descartan: se perdía justo lo que hace verificable la norma.
+        lines += [f"**Cita:** {document['citation']}", ""]
         if document["topics"]:
             lines += [f"*Materias: {', '.join(document['topics'])}*", ""]
         lines += [
             demote(resolved[document["pvid"]], level).strip(),
             "",
-            f"<!-- pvid {document['pvid']} · {document['url']} -->",
+            # "Fuente oficial" y no "Fuente": el propio texto de la SP rotula así las
+            # fuentes de sus gráficos (`*Fuente: INE*`), y las dos se confundirían.
+            f"**Fuente oficial:** {document['citation']} · {document['url']}",
             "",
         ]
     return "\n".join(lines).rstrip() + "\n"
@@ -242,7 +340,7 @@ def export_book(book: Book) -> tuple[list[dict], list[dict], list[dict]]:
     # repartidos en 40 archivos hay que recomponerlos a mano para leer una sola norma.
     for path in book.markdown.glob("*.md"):
         path.unlink()
-    grouped = sections(manifest, documents)
+    grouped = sections(manifest, documents, word_sizes(documents))
     for section in grouped:
         (book.markdown / section["filename"]).write_text(
             section_markdown(book, section, resolved, manifest["nodes"]), encoding="utf-8"
@@ -311,7 +409,9 @@ def main(books: list[Book] | None = None) -> None:
     for book in books:
         documents, figures, grouped = export_book(book)
         print(f"\n--- {book.name} ({book.slug}) ---")
-        print(f"sections: {len(grouped)} .md files ({GROUP_BY}) for {len(documents)} documents")
+        titles = len({s["pvid"] for s in grouped})
+        print(f"sections: {len(grouped)} .md files for {titles} {GROUP_BY}s "
+              f"(max {MAX_WORDS:,} words each) and {len(documents)} documents")
         report(documents, figures)
         all_documents += documents
         # Ninguna figura se repite entre Libros (verificado sobre las 1.743 del corpus),

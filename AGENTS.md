@@ -104,7 +104,7 @@ algo.
 
 ### 7. Dos hashes, no uno
 `source_sha256` (cuerpo HTML) y `content_sha256` (nuestro Markdown) son distintos a
-propósito. Con uno solo, cada mejora al parser se vería como si 1.198 normas hubieran
+propósito. Con uno solo, cada mejora al parser se vería como si 1.220 normas hubieran
 cambiado y el changelog dejaría de valer.
 
 ### 8. Concurrencia contra el sitio
@@ -167,6 +167,22 @@ nombre los fundiría. El ordinal del archivo sale del árbol **completo**, no de
 documentos que se pasen: si se calculara sobre el subconjunto, cada capítulo que el lado PDF
 no logra alinear correría todos los siguientes y los dos árboles dejarían de compararse con
 un `diff`.
+
+Un Título de más de `export.max_words` palabras (15.000) se parte en `…-parte-1.md`,
+`…-parte-2.md`: demasiado contexto de una vez es donde un modelo empieza a perderse. Se
+acumulan normas en orden de lectura y se corta **entre normas, nunca dentro**, para que la
+cita "Capítulo XXIV, N° 3" siga cabiendo en un solo archivo; por eso una norma que sola
+supera el tope queda entera en su parte. Una última parte de menos de `min_tail_words`
+(2.000) se funde con la anterior. El corte se calcula con las palabras del lado **web** y
+sobre el árbol completo, igual que el ordinal, para que el lado PDF parta en el mismo
+lugar. Cada parte repite el `##` de la Letra en que arranca, declara "Parte n de N" y
+enlaza la anterior y la siguiente; el `index.md` del Libro dice qué Capítulos trae cada una.
+
+El nombre de archivo es `<correlativo>-<Título>-<slug>[-parte-N].md`: el correlativo numera
+los archivos del Libro en orden de lectura contando las partes (`03-03-…-parte-1`,
+`04-03-…-parte-2`), con ceros a la izquierda para que se ordenen como se leen, y el
+número del Título dice a cuál pertenece cada uno. En `output/` las carpetas van en español (`libro-iii/`, `Book.output`); `data/` conserva el `slug`
+(`book-iii`) como clave interna.
 
 ### 13. El PDF se verifica antes de renombrarlo
 
@@ -285,13 +301,13 @@ Todo objetivo declara **cómo se repone**, y la lista va de lo más barato a lo 
 ├── assets/                   gitignored · lo baja y verifica la etapa `pdf`
 │   └── books/                Book1..5.pdf + http.json (ETag por Libro)
 ├── output/                   gitignored · LO ÚNICO QUE SE ENTREGA
-│   ├── README.md             qué es, de dónde salió, cómo navegarlo
-│   └── book-i … book-v/      index.md + un .md por Título
+│   ├── index.md              qué es, de dónde salió, cómo navegarlo
+│   └── libro-i … libro-v/    index.md + un .md por Título (o sus partes)
 └── data/                     gitignored
     ├── web/book-i … book-v/     extraído del portal
     │   ├── cache/*.html           el subárbol de ESE Libro y nada más
     │   ├── images/<sha>.ext
-    │   ├── markdown/NNN-<tít>.md   un archivo por Título, en orden de lectura
+    │   ├── markdown/<n>-<tít>-<slug>.md   un archivo por Título o parte, en orden de lectura
     │   ├── changelog/*.md
     │   ├── state/                 documents.json + runs.jsonl del Libro
     │   ├── manifest.json · http.json · images.json · sections.json
@@ -300,7 +316,7 @@ Todo objetivo declara **cómo se repone**, y la lista va de lo más barato a lo 
     │   ├── figures.json · figures.jsonl
     │   └── changes.json
     └── pdf/book-i … book-v/      el PDF oficial, alineado al orden de la web
-        ├── markdown/NNN-<tít>.md   mismos nombres que web/, para `diff` directo
+        ├── markdown/<n>-<tít>-<slug>.md   mismos nombres que web/, para `diff` directo
         ├── images/<sha>.png        figuras embebidas en el PDF (pdfimages)
         ├── text.txt                salida cruda de pdftotext (caché)
         ├── documents.json          el PDF segmentado por los mismos pvid

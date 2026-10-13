@@ -10,7 +10,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 
-from .config import ASSETS, CONFIG, PDF, WEB
+from .config import ASSETS, CONFIG, OUTPUT, PDF, WEB
 
 
 @dataclass(frozen=True)
@@ -48,6 +48,15 @@ class Book:
     def pdf(self) -> Path:
         """Carpeta del compendio oficial en PDF: su texto extraído y la comparativa."""
         return PDF / self.slug
+
+    @property
+    def output(self) -> Path:
+        """Carpeta del Libro en el entregable: `output/libro-iii/`.
+
+        Va en español y no con el `slug` porque `output/` es lo que se le entrega a un
+        lector; `data/` es el área de trabajo y conserva el `slug` como clave interna.
+        """
+        return OUTPUT / f"libro-{self.slug.split('-')[1]}"
 
     @property
     def pdf_source(self) -> Path:

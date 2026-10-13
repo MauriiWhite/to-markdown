@@ -69,6 +69,12 @@ min_units = 700       # medido: 799
 # como la SP encabeza cada página de su PDF; sus Letras y Capítulos van dentro del mismo
 # archivo, anidados como encabezados.
 group_by = "title"
+# Tope de palabras por archivo. Un Título que lo supera se parte en "parte-1", "parte-2"…
+# acumulando normas en orden de lectura; nunca se corta dentro de una norma, así que una
+# que sola supera el tope queda entera en su propia parte. Una última parte más corta que
+# `min_tail_words` se funde con la anterior en vez de quedar como archivo suelto.
+max_words = 15000
+min_tail_words = 2000
 
 [compare]
 # Tamaño del n-grama de palabras con que se contrasta PDF contra web. Con 8, un párrafo

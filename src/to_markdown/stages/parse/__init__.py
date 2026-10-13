@@ -127,7 +127,7 @@ def parse_document(pvid: str, html: str, images: dict[str, str]) -> dict | None:
         "units": split_units(markdown, pvid, citation),
         # Dos hashes distintos a propósito. `source` es del HTML de origen y responde
         # "¿cambió la norma?"; `content` es de nuestro Markdown y responde "¿cambió nuestra
-        # salida?". Con uno solo, cada mejora al parser se vería como si 1.198 normas
+        # salida?". Con uno solo, cada mejora al parser se vería como si 1.220 normas
         # hubieran cambiado, y el changelog dejaría de valer.
         "source_sha256": hashlib.sha256(body.encode("utf-8")).hexdigest(),
         "content_sha256": hashlib.sha256(markdown.encode("utf-8")).hexdigest(),

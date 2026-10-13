@@ -10,7 +10,7 @@ import json
 import re
 
 from ...core import Book
-from ..export import sections
+from ..export import heading, navigation, sections
 
 ITEM = re.compile(r"(?<=[.;:)])\s+(?=\d{1,3}[.)]\s+[A-ZÁÉÍÓÚÑ¿(])")
 AMENDMENT = re.compile(r"\s*Nota de actualizaci[óo]n:\s*", re.IGNORECASE)
@@ -31,7 +31,8 @@ def to_markdown(text: str, title: str = "") -> str:
     return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 
-def write_markdown(book: Book, documents: list[dict], comparisons: list[dict], manifest: dict) -> int:
+def write_markdown(book: Book, documents: list[dict], comparisons: list[dict], manifest: dict,
+                   sizes: dict[str, int]) -> int:
     """Un `.md` por Capítulo, en espejo exacto de `data/web/<libro>/markdown/`.
 
     Mismo criterio de agrupación y mismo nombre de archivo que el lado web, para que
@@ -41,11 +42,14 @@ def write_markdown(book: Book, documents: list[dict], comparisons: list[dict], m
     El front matter lleva de dónde salió cada sección —página del PDF, cómo se ancló, qué
     cobertura tiene— porque un `.md` suelto tiene que poder declarar cuánto vale su
     alineación sin volver al informe.
+
+    `sizes` son las palabras del lado **web**: un Título se parte donde lo parte la web, no
+    donde lo partiría el texto del PDF, o las partes de uno y otro lado no se corresponderían.
     """
     for path in book.pdf_markdown.glob("*.md"):
         path.unlink()
     stats = {c["pvid"]: c for c in comparisons}
-    grouped = sections(manifest, documents)
+    grouped = sections(manifest, documents, sizes)
     for section in grouped:
         members = section["documents"]
         pages = [d["pdf_page"] for d in members]
@@ -54,6 +58,8 @@ def write_markdown(book: Book, documents: list[dict], comparisons: list[dict], m
             f"book: {book.slug}",
             f"section_pvid: {section['pvid']}",
             f"order: {section['index']}",
+            f"part: {section['part']}",
+            f"parts: {section['parts']}",
             f"title: {json.dumps(section['title'], ensure_ascii=False)}",
             f"path: {json.dumps(section['path'], ensure_ascii=False)}",
             f"documents: {json.dumps([d['pvid'] for d in members], ensure_ascii=False)}",
@@ -63,8 +69,9 @@ def write_markdown(book: Book, documents: list[dict], comparisons: list[dict], m
             f"coverage_pdf: {min(stats[d['pvid']]['coverage_pdf'] for d in members):.4f}",
             "---",
             "",
-            f"# {section['title']}",
+            heading(section),
             "",
+            *navigation(section),
         ]
         emitted = {section["pvid"]}
         for document in members:

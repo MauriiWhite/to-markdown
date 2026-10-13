@@ -417,11 +417,11 @@ def test_the_order_is_reading_order_not_pvid_order(book_corpus):
 def test_every_document_falls_in_exactly_one_chapter(book_corpus):
     """La agrupación tiene que ser una partición: un documento repetido se leería dos
     veces y uno perdido no se leería nunca."""
-    from to_markdown.stages.export import sections
+    from to_markdown.stages.export import sections, word_sizes
 
     book, documents = book_corpus
     manifest = json.loads(book.file("manifest.json").read_text(encoding="utf-8"))
-    grouped = sections(manifest, documents)
+    grouped = sections(manifest, documents, word_sizes(documents))
     observed = [d["pvid"] for c in grouped for d in c["documents"]]
     assert sorted(observed) == sorted(d["pvid"] for d in documents)
     assert len(observed) == len(set(observed))
@@ -432,15 +432,16 @@ def test_homonymous_chapters_do_not_merge(book_corpus):
     """"Capítulo I. Introducción" aparece 11 veces solo en el Libro III, bajo Letras
     distintas. Agrupar por el texto del título las fundiría en un archivo; se agrupa por
     el nodo del árbol justamente para que no pase."""
-    from to_markdown.stages.export import sections
+    from to_markdown.stages.export import sections, word_sizes
 
     book, documents = book_corpus
     manifest = json.loads(book.file("manifest.json").read_text(encoding="utf-8"))
-    grouped = sections(manifest, documents)
-    titles = collections.Counter(c["title"] for c in grouped)
+    grouped = sections(manifest, documents, word_sizes(documents))
+    # Las partes de un mismo Título comparten título a propósito: se descuentan.
+    titles = collections.Counter(c["title"] for c in grouped if c["part"] == 1)
     repeated = [t for t, n in titles.items() if n > 1]
     for title in repeated:
-        same = [c for c in grouped if c["title"] == title]
+        same = [c for c in grouped if c["title"] == title and c["part"] == 1]
         assert len({c["pvid"] for c in same}) == len(same), f"{title} se fundió"
         assert len({c["filename"] for c in same}) == len(same), f"{title} pisa su archivo"
 
@@ -448,13 +449,61 @@ def test_homonymous_chapters_do_not_merge(book_corpus):
 def test_the_chapter_ordinal_does_not_depend_on_how_many_are_passed(book_corpus):
     """El nombre de archivo tiene que ser el mismo aunque falten capítulos, o el lado PDF
     —que solo trae los que alineó— nombraría distinto y el `diff` dejaría de servir."""
-    from to_markdown.stages.export import sections
+    from to_markdown.stages.export import sections, word_sizes
 
     book, documents = book_corpus
     manifest = json.loads(book.file("manifest.json").read_text(encoding="utf-8"))
-    complete = {c["pvid"]: c["filename"] for c in sections(manifest, documents)}
-    partial = {c["pvid"]: c["filename"] for c in sections(manifest, documents[::2])}
-    assert all(complete[pvid] == name for pvid, name in partial.items())
+    sizes = word_sizes(documents)
+    where = {d["pvid"]: c["filename"] for c in sections(manifest, documents, sizes)
+             for d in c["documents"]}
+    partial = sections(manifest, documents[::2], sizes)
+    # Cada norma cae en el mismo archivo aunque falten sus vecinas: ni el ordinal ni el
+    # corte en partes pueden depender de cuántas se pasen.
+    assert all(where[d["pvid"]] == c["filename"] for c in partial for d in c["documents"])
+
+
+def test_filenames_sort_in_reading_order(book_corpus):
+    """El orden alfabético de los nombres tiene que ser el de lectura: es como los muestra
+    `ls` o cualquier explorador. Si falla, un Libro pasó de 99 archivos y hay que subir el
+    ancho del correlativo en `part_name`."""
+    from to_markdown.stages.export import sections, word_sizes
+
+    book, documents = book_corpus
+    manifest = json.loads(book.file("manifest.json").read_text(encoding="utf-8"))
+    names = [c["filename"] for c in sections(manifest, documents, word_sizes(documents))]
+    assert names == sorted(names)
+
+
+def test_a_title_splits_between_norms_never_inside_one():
+    """El ejemplo que fijó la regla: 7k + 7k + 6k se lee como 14k + 6k. Una norma que sola
+    pasa del tope queda entera, y una cola chica se funde con la parte anterior."""
+    from to_markdown.stages.export import split
+
+    sizes = {"a": 7000, "b": 7000, "c": 6000, "big": 20000, "x": 14000, "tiny": 600}
+    assert split(["a", "b", "c"], sizes, cap=15000, tail=2000) == [["a", "b"], ["c"]]
+    assert split(["a", "big", "c"], sizes, cap=15000, tail=2000) == [["a"], ["big"], ["c"]]
+    assert split(["x", "tiny"], sizes, cap=15000, tail=2000) == [["x", "tiny"]]
+    assert split(["a"], sizes, cap=15000, tail=2000) == [["a"]]
+    ids = list(sizes)
+    assert [p for part in split(ids, sizes, cap=15000, tail=2000) for p in part] == ids
+
+
+def test_no_part_overflows_beyond_one_norm_and_its_tail(book_corpus):
+    """Una parte solo puede pasar del tope por la cola fundida, o porque abre con una norma
+    que sola ya lo supera. Más allá de eso, el corte dejó de cumplir lo que el índice
+    promete."""
+    from to_markdown.stages.export import MAX_WORDS, MIN_TAIL, sections, word_sizes
+
+    book, documents = book_corpus
+    manifest = json.loads(book.file("manifest.json").read_text(encoding="utf-8"))
+    sizes = word_sizes(documents)
+    for section in sections(manifest, documents, sizes):
+        members = section["documents"]
+        total = sum(sizes[d["pvid"]] for d in members)
+        oversized = sizes[members[0]["pvid"]] > MAX_WORDS
+        assert oversized or total < MAX_WORDS + MIN_TAIL, (
+            f"{section['filename']} tiene {total} palabras"
+        )
 
 
 def test_body_headings_sink_below_the_chapter_heading():
@@ -612,10 +661,9 @@ def test_the_bundle_has_one_index_per_book(book_corpus):
     Libro; con él, es una consulta al índice y después un solo archivo. Para un modelo esa
     diferencia es entre buscar y encontrar.
     """
-    from to_markdown import OUTPUT
 
     book, _ = book_corpus
-    folder = OUTPUT / book.slug
+    folder = book.output
     if not folder.exists():
         pytest.skip("bundle no construido: `uv run python -m to_markdown bundle`")
     index_text = folder / "index.md"
@@ -631,13 +679,36 @@ def test_the_bundle_has_one_index_per_book(book_corpus):
         assert section["title"] in joined
 
 
+def test_the_index_reads_ncg_and_date_from_amendment_notes():
+    """La última modificación de cada Título sale de las notas de la SP, que no escriben
+    la fecha siempre igual. Y una misma NCG con dos fechas es una fila, no dos."""
+    from to_markdown.stages.bundle import amendments, latest_ncgs
+
+    notes = [
+        ("Este número fue modificado por la Norma de Carácter General Nº 31, de fecha 29 de "
+         "diciembre de 2011."),
+        ("este ítem fue incorporado por la Norma de Carácter General N° 370, emitida el 31 de "
+         "julio de 2026."),
+        "Este anexo fue agregado por la NCG N° 237, de fecha 4 de enero de 2019.",
+        ("Este Capítulo fue reemplazado por la Norma de Carácter General Nº 334, de fecha 30 "
+         "deabril de 2025."),
+        ("Este número fue incorporado por la Norma de Carácter General Nº 31, cambiando la "
+         "numeración siguiente."),
+    ]
+    assert amendments({"amendment_notes": notes}) == [
+        ("2011-12-29", 31), ("2026-07-31", 370), ("2019-01-04", 237), ("2025-04-30", 334),
+    ]
+    rows = latest_ncgs([("2026-06-27", 366, "XII", 12), ("2026-06-30", 366, "XIX", 19),
+                        ("2026-07-20", 368, "III", 3)])
+    assert rows == [("2026-07-20", 368, ["III"]), ("2026-06-30", 366, ["XII", "XIX"])]
+
+
 def test_the_index_promises_no_missing_files(book_corpus):
     """Un índice que apunta a un archivo ausente es peor que no tener índice: manda al
     lector —o al modelo— a buscar algo que no existe."""
-    from to_markdown import OUTPUT
 
     book, _ = book_corpus
-    folder = OUTPUT / book.slug
+    folder = book.output
     if not folder.exists():
         pytest.skip("bundle no construido: `uv run python -m to_markdown bundle`")
     cited = set(re.findall(r"`([^`]+\.md)`", (folder / "index.md").read_text(encoding="utf-8")))
@@ -651,10 +722,10 @@ def test_the_bundle_drags_nothing_from_the_work_area():
 
     if not OUTPUT.exists():
         pytest.skip("bundle no construido: `uv run python -m to_markdown bundle`")
-    allowed = {"README.md"} | {b.slug for b in BOOKS}
+    allowed = {"index.md"} | {b.output.name for b in BOOKS}
     assert {p.name for p in OUTPUT.iterdir()} <= allowed
     for book in BOOKS:
-        folder = OUTPUT / book.slug
+        folder = book.output
         if folder.exists():
             assert all(p.suffix == ".md" for p in folder.iterdir()), "solo Markdown"
             assert not any(p.is_dir() for p in folder.iterdir())

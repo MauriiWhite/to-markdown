@@ -27,6 +27,7 @@ from collections import Counter
 from datetime import UTC, datetime
 
 from ...core import BOOKS, Book
+from ..export import word_sizes
 from .coverage import (
     BODY_ANCHOR,
     FIGURE_MARKER,
@@ -230,7 +231,9 @@ def align(book: Book) -> dict:
     book.file_pdf("documents.json").write_text(
         json.dumps(documents, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    section_files = write_markdown(book, documents, comparisons, manifest)
+    section_files = write_markdown(
+        book, documents, comparisons, manifest, word_sizes(web.values())
+    )
     verdicts = Counter(c["verdict"] for c in comparisons)
     report = {
         "book": {"slug": book.slug, "name": book.name, "pdf": book.pdf_file},

@@ -10,7 +10,7 @@ from __future__ import annotations
 import json
 from datetime import UTC, datetime
 
-from ..core import BOOKS, OUTPUT, Book
+from ..core import BOOKS, Book
 from .sources import amendment_activity, read_json, stage_timings
 
 
@@ -42,7 +42,7 @@ def processing_metrics(book: Book) -> dict:
     """Lo que salió del procesamiento: normas, números, figuras y el entregable."""
     documents = read_json(book.file("documents.json"), [])
     sections = read_json(book.file("sections.json"), [])
-    folder = OUTPUT / book.slug
+    folder = book.output
     delivered = list(folder.glob("*.md")) if folder.exists() else []
     return {
         "slug": book.slug,
@@ -52,7 +52,7 @@ def processing_metrics(book: Book) -> dict:
         "figures": len({f for d in documents for f in d.get("figures", [])}),
         "notes": sum(len(d.get("amendment_notes", [])) for d in documents),
         "topics": len({t for d in documents for t in d.get("topics", [])}),
-        "sections": len(sections),
+        "sections": len({s["pvid"] for s in sections}),  # Títulos, no archivos: uno partido son varios
         "delivered": len(delivered),
         "delivered_bytes": sum(p.stat().st_size for p in delivered),
         "min_documents": book.min_documents,

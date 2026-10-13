@@ -99,9 +99,11 @@ del Compendio:
 
 ```
 data/web/book-i/markdown/
-├── 1-titulo-i-afiliacion-e-incorporacion-a-una-administradora-...md
-├── 2-titulo-ii-desafiliacion.md
-└── 12-titulo-xii-de-la-informacion-sobre-la-cotizacion-...md
+├── 01-01-titulo-i-afiliacion-e-incorporacion-a-una-administradora-...md
+├── 02-02-titulo-ii-desafiliacion.md
+├── 03-03-titulo-iii-administracion-de-cuentas-personales-parte-1.md
+├── …
+└── 21-12-titulo-xii-de-la-informacion-sobre-la-cotizacion-...md
 ```
 
 Un Libro son sus Títulos, y cada Título va entero en un archivo con sus Letras, Capítulos y
@@ -126,7 +128,7 @@ Libro III, y agrupar por nombre los fundiría en uno.
 contrastar una sección es `diff`:
 
 ```bash
-diff data/web/book-i/markdown/002-*.md data/pdf/book-i/markdown/002-*.md
+diff data/web/book-i/markdown/02-02-*.md data/pdf/book-i/markdown/02-02-*.md
 ```
 
 Las figuras embebidas en el PDF se extraen con `pdfimages` a `data/pdf/<libro>/images/`,
@@ -155,22 +157,34 @@ Las imágenes no se interpretan: adivinar qué dice una figura es peor que enlaz
 ## El entregable: `output/`
 
 `data/` es el área de trabajo del pipeline —caché, estado, comparativas—; `output/` es lo
-único que se le manda a alguien. Son **86 archivos y 9,8 MB**, sin imágenes locales porque
+único que se le manda a alguien. Son **150 archivos y 10 MB**, sin imágenes locales porque
 las figuras enlazan a `spensiones.cl`.
 
 ```
 output/
-├── README.md                 qué es, de dónde salió, cómo navegarlo
-├── book-i/
+├── index.md                  qué es, de dónde salió, cómo navegarlo
+├── libro-i/
 │   ├── index.md              ← 12 Títulos, sus Capítulos y sus materias
-│   ├── 1-titulo-i-....md
-│   └── … 12 archivos
-└── book-ii … book-v/
+│   ├── 01-01-titulo-i-....md
+│   └── … 21 archivos (los Títulos de más de 15.000 palabras van en partes)
+└── libro-ii … libro-v/
 ```
 
-Cada Libro lleva su propio `index.md` con tres cosas: la tabla de sus Títulos (archivo,
-normas, palabras), el desglose de Letras y Capítulos de cada uno, y un índice de **materias**
-—las etiquetas que la propia SP asocia a cada norma— con los Títulos donde aparece cada una.
+Cada Libro lleva su propio `index.md`:
+
+- **Títulos de un vistazo**: tamaño y última modificación (NCG y fecha) de cada Título.
+- **Archivos**: qué archivo y qué parte corresponde a cada Título.
+- **Qué contiene cada Título**: normas, números normativos, palabras, figuras, las NCG
+  que lo modificaron, sus materias, **la primera oración del texto de la SP** —una cita
+  textual, no un resumen— y el desglose de Letras y Capítulos de cada parte, con cuántos
+  números y qué materias trae cada Capítulo.
+- **Modificaciones más recientes** del Libro y el índice de **materias** —las etiquetas
+  que la propia SP asocia a cada norma— con los Títulos donde aparece cada una.
+
+El `index.md` raíz resume los cinco Libros, lista sus Títulos con sus archivos, cruza las
+materias de todo el Compendio contra Libro y Título, y muestra las últimas NCG. Las
+modificaciones salen de las notas de actualización del propio texto; una misma NCG que la
+SP fecha distinto en dos notas cuenta una vez, con su fecha más reciente.
 
 Eso es lo que hace el corpus navegable para un modelo: ubicar "el Capítulo XXIV del Título
 III" es una consulta al índice y la lectura de un archivo, en vez de abrir los doce.
