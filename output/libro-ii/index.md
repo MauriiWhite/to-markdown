@@ -6,7 +6,7 @@ Compendio de Normas del Sistema de Pensiones · Superintendencia de Pensiones de
 
 - Fuente: https://www.spensiones.cl/portal/compendio/596/w3-propertyvalue-2748.html
 - Extraído del portal: 2026-09-09T00:32:51+00:00
-- Contenido: **15 Títulos** en 17 archivos · 166 normas · 1.103 números normativos · 203 notas de actualización · 95 figuras · 145.237 palabras
+- Contenido: **15 Títulos** en 17 archivos · 166 normas · 1.103 números normativos · 203 notas de actualización · 95 figuras · 145.221 palabras
 
 Cada Título es un archivo, o varias partes si supera 15.000 palabras: se corta entre Capítulos, nunca dentro de uno, así que un Capítulo que solo ya supera ese tope queda entero en su parte. Para citar una norma se usa su Capítulo y su número: "Título III, Capítulo XXIV, N° 3".
 
@@ -21,7 +21,7 @@ Cada Título es un archivo, o varias partes si supera 15.000 palabras: se corta 
 | V | Bonificación del Articulo 20 del D.L N° 3500 de 1980 | 1 | 7 | 4.525 | — |
 | VI | Tributación de la Cuenta de Ahorro Voluntario | 1 | 6 | 7.595 | NCG N° 277 (03-12-2020) |
 | VII | Traspaso de Fondos por Compensación Económica y por leyes especiales | 1 | 10 | 7.128 | NCG N° 231 (13-08-2018) |
-| VIII | Pago de las cotizaciones | 3 | 36 | 35.058 | NCG N° 288 (08-07-2021) |
+| VIII | Pago de las cotizaciones | 3 | 36 | 35.042 | NCG N° 288 (08-07-2021) |
 | IX | Cobranza de cotizaciones previsionales | 1 | 18 | 16.199 | NCG N° 368 (20-07-2026) |
 | X | Información de empleadores que deben proporcionar las AFP | 1 | 9 | 3.815 | NCG N° 247 (24-07-2019) |
 | XI | Exención de pago de cotizaciones previsionales a técnicos extranjeros y las empresas que los contraten. Devolución de fondos previsionales | 1 | 2 | 3.020 | NCG N° 315 (10-11-2023) |
@@ -34,23 +34,23 @@ Cada Título es un archivo, o varias partes si supera 15.000 palabras: se corta 
 
 | Archivo | Título | Parte | Normas | Palabras |
 | --- | --- | :---: | ---: | ---: |
-| `01-01-titulo-i-cotizaciones-y-aportes-previsionales-por-desempeno-de-trabajo.md` | Título I Cotizaciones y Aportes Previsionales por desempeño de Trabajos Pesados | — | 17 | 11.116 |
-| `02-02-titulo-ii-cotizaciones-voluntarias-depositos-convenidos-y-ahorro-previ.md` | Título II Cotizaciones Voluntarias, Depósitos Convenidos y Ahorro Previsional Voluntario | — | 17 | 16.054 |
-| `03-03-titulo-iii-depositos-convenidos.md` | Título III Depósitos Convenidos | — | 2 | 969 |
-| `04-04-titulo-iv-regulacion-conjunta-de-los-depositos-de-ahorro-previsional-v.md` | Título IV Regulación conjunta de los Depósitos de Ahorro Previsional Voluntario Colectivo | — | 12 | 14.384 |
-| `05-05-titulo-v-bonificacion-del-articulo-20-del-d-l-n-3500-de-1980.md` | Título V Bonificación del Articulo 20 del D.L N° 3500 de 1980 | — | 7 | 4.525 |
-| `06-06-titulo-vi-tributacion-de-la-cuenta-de-ahorro-voluntario.md` | Título VI Tributación de la Cuenta de Ahorro Voluntario | — | 6 | 7.595 |
-| `07-07-titulo-vii-traspaso-de-fondos-por-compensacion-economica-y-por-leyes-e.md` | Título VII Traspaso de Fondos por Compensación Económica y por leyes especiales | — | 10 | 7.128 |
-| `08-08-titulo-viii-pago-de-las-cotizaciones-parte-1.md` | Título VIII Pago de las cotizaciones | 1/3 | 25 | 15.933 |
-| `09-08-titulo-viii-pago-de-las-cotizaciones-parte-2.md` | Título VIII Pago de las cotizaciones | 2/3 | 8 | 14.772 |
-| `10-08-titulo-viii-pago-de-las-cotizaciones-parte-3.md` | Título VIII Pago de las cotizaciones | 3/3 | 3 | 4.353 |
-| `11-09-titulo-ix-cobranza-de-cotizaciones-previsionales.md` | Título IX Cobranza de cotizaciones previsionales | — | 18 | 16.199 |
-| `12-10-titulo-x-informacion-de-empleadores-que-deben-proporcionar-las-afp.md` | Título X Información de empleadores que deben proporcionar las AFP | — | 9 | 3.815 |
-| `13-11-titulo-xi-exencion-de-pago-de-cotizaciones-previsionales-a-tecnicos-ex.md` | Título XI Exención de pago de cotizaciones previsionales a técnicos extranjeros y las empresas que los contraten. Devolución de fondos previsionales | — | 2 | 3.020 |
-| `14-12-titulo-xii-subsidio-al-empleo-de-la-ley-n-20-338-instrucciones-a-las-a.md` | Título XII Subsidio al empleo de la Ley N° 20.338.  Instrucciones a las Administradoras de Fondos de Pensiones y al Instituto de Previsión Social respecto de la información a entregar sobre el pago de cotizaciones | — | 6 | 2.797 |
-| `15-13-titulo-xiii-el-subsidio-a-los-trabajadores-jovenes.md` | Título XIII El Subsidio a los Trabajadores Jóvenes | — | 15 | 15.446 |
-| `16-14-titulo-xiv-regulaciones-comunes-en-relacion-al-intercambio-de-informac.md` | Título XIV Regulaciones comunes en relación al intercambio de información entre las Administradoras de Fondos de Pensiones, el Servicio de Impuestos Internos y la Tesorería General de la República, referidas a la obligación de cotizar de los trabajadores independientes | — | 4 | 4.207 |
-| `17-15-titulo-xv-subsidio-al-empleo-de-la-mujer-de-la-ley-n-20-595-instruccio.md` | Título XV Subsidio al Empleo de la Mujer de la Ley N° 20.595. Instrucciones a las Administradoras de Fondos de Pensiones y al Instituto de Previsión Social respecto de la Información a entregar sobre el Pago de Cotizaciones | — | 5 | 2.924 |
+| `01-01-titulo-i.md` | Título I Cotizaciones y Aportes Previsionales por desempeño de Trabajos Pesados | — | 17 | 11.116 |
+| `02-02-titulo-ii.md` | Título II Cotizaciones Voluntarias, Depósitos Convenidos y Ahorro Previsional Voluntario | — | 17 | 16.054 |
+| `03-03-titulo-iii.md` | Título III Depósitos Convenidos | — | 2 | 969 |
+| `04-04-titulo-iv.md` | Título IV Regulación conjunta de los Depósitos de Ahorro Previsional Voluntario Colectivo | — | 12 | 14.384 |
+| `05-05-titulo-v.md` | Título V Bonificación del Articulo 20 del D.L N° 3500 de 1980 | — | 7 | 4.525 |
+| `06-06-titulo-vi.md` | Título VI Tributación de la Cuenta de Ahorro Voluntario | — | 6 | 7.595 |
+| `07-07-titulo-vii.md` | Título VII Traspaso de Fondos por Compensación Económica y por leyes especiales | — | 10 | 7.128 |
+| `08-08-titulo-viii-parte-1.md` | Título VIII Pago de las cotizaciones | 1/3 | 25 | 15.929 |
+| `09-08-titulo-viii-parte-2.md` | Título VIII Pago de las cotizaciones | 2/3 | 8 | 14.764 |
+| `10-08-titulo-viii-parte-3.md` | Título VIII Pago de las cotizaciones | 3/3 | 3 | 4.349 |
+| `11-09-titulo-ix.md` | Título IX Cobranza de cotizaciones previsionales | — | 18 | 16.199 |
+| `12-10-titulo-x.md` | Título X Información de empleadores que deben proporcionar las AFP | — | 9 | 3.815 |
+| `13-11-titulo-xi.md` | Título XI Exención de pago de cotizaciones previsionales a técnicos extranjeros y las empresas que los contraten. Devolución de fondos previsionales | — | 2 | 3.020 |
+| `14-12-titulo-xii.md` | Título XII Subsidio al empleo de la Ley N° 20.338.  Instrucciones a las Administradoras de Fondos de Pensiones y al Instituto de Previsión Social respecto de la información a entregar sobre el pago de cotizaciones | — | 6 | 2.797 |
+| `15-13-titulo-xiii.md` | Título XIII El Subsidio a los Trabajadores Jóvenes | — | 15 | 15.446 |
+| `16-14-titulo-xiv.md` | Título XIV Regulaciones comunes en relación al intercambio de información entre las Administradoras de Fondos de Pensiones, el Servicio de Impuestos Internos y la Tesorería General de la República, referidas a la obligación de cotizar de los trabajadores independientes | — | 4 | 4.207 |
+| `17-15-titulo-xv.md` | Título XV Subsidio al Empleo de la Mujer de la Ley N° 20.595. Instrucciones a las Administradoras de Fondos de Pensiones y al Instituto de Previsión Social respecto de la Información a entregar sobre el Pago de Cotizaciones | — | 5 | 2.924 |
 
 ## Qué contiene cada Título
 
@@ -64,7 +64,7 @@ Cómo empieza (texto de la SP, Libro II, Título I Cotizaciones y Aportes Previs
 
 > La Ley N° 19.404 publicada en el Diario Oficial de fecha 21 de agosto de 1995, modificó el D.L. N° 3.500, de 1980, con el fin de otorgar a los trabajadores que desempeñen trabajos calificados como pesados, la posibilidad de pensionarse anticipadamente en la medida que den cumplimiento a ciertos requisitos.
 
-Archivo: `01-01-titulo-i-cotizaciones-y-aportes-previsionales-por-desempeno-de-trabajo.md` · 17 normas · 11.116 palabras
+Archivo: `01-01-titulo-i.md` · 17 normas · 11.116 palabras
 
 - Capítulo I Aspectos generales — 4 números · Cotización, Trabajo pesado
 - Capítulo II De las cotizaciones y aportes — 4 números · Cotización, Trabajo pesado
@@ -95,7 +95,7 @@ Cómo empieza (texto de la SP, Libro II, Título II, Letra A Regulaciones conjun
 
 > Con el objeto de incentivar el mecanismo de ahorro previsional voluntario establecido en el artículo 20 del D.L. N° 3.500, de 1980, en virtud del N° 13 del artículo 91 de la Ley N° 20.255, publicada en el Diario Oficial del 17 de marzo de 2008, que entró en vigencia el 1 de octubre de 2008, se introducen diversas modificaciones…
 
-Archivo: `02-02-titulo-ii-cotizaciones-voluntarias-depositos-convenidos-y-ahorro-previ.md` · 17 normas · 16.054 palabras
+Archivo: `02-02-titulo-ii.md` · 17 normas · 16.054 palabras
 
 - A. Regulaciones conjuntas en relación con Cotizaciones Voluntarias, Depósitos Convenidos y Depósitos de Ahorro Previsional Voluntario
   - Capítulo I. Introducción — 1 número · Cotización voluntaria, Depósito convenido, Déposito de Ahorro Previsional Voluntario
@@ -127,7 +127,7 @@ Cómo empieza (texto de la SP, Libro II Cotizaciones Previsionales, Título III 
 
 > Los trabajadores podrán convenir con sus empleadores el depósito de valores destinados a la cuenta de capitalización individual de depósitos convenidos, con el único objetivo de incrementar el capital requerido para financiar una pensión anticipada o aumentar el monto de la pensión. 2.
 
-Archivo: `03-03-titulo-iii-depositos-convenidos.md` · 2 normas · 969 palabras
+Archivo: `03-03-titulo-iii.md` · 2 normas · 969 palabras
 
 - Anexos
   - Anexo Convenio de Depósitos Voluntarios — 1 número · Déposito de Ahorro Previsional Voluntario
@@ -142,7 +142,7 @@ Cómo empieza (texto de la SP, Libro II, Título IV Regulación conjunta de los 
 
 > Con el objeto de ampliar, fomentar y profundizar los mecanismos de ahorro previsional voluntario dispuestos en el artículo 20 del D.L. N° 3.500, de 1980, la Ley N° 20.255, de fecha 17 de marzo de 2008, crea el ahorro previsional voluntario colectivo (APVC), que permite a los trabajadores complementar su ahorro obligatorio, con aportes de naturaleza voluntaria que contemplan beneficios…
 
-Archivo: `04-04-titulo-iv-regulacion-conjunta-de-los-depositos-de-ahorro-previsional-v.md` · 12 normas · 14.384 palabras
+Archivo: `04-04-titulo-iv.md` · 12 normas · 14.384 palabras
 
 - Capítulo I. Introducción — 1 número · Depósito de Ahorro Previsional Colectivo, Déposito de Ahorro Previsional Voluntario
 - Capítulo II. Definiciones — 19 números · Depósito de Ahorro Previsional Colectivo, Déposito de Ahorro Previsional Voluntario
@@ -167,7 +167,7 @@ Cómo empieza (texto de la SP, Libro II, Título V, Letra A Forma y Plazo en que
 
 > El artículo 20 O, del D.L. N° 3.500, de 1980, agregado por el artículo 91 N° 13 de la Ley N° 20.255, establece que los trabajadores dependientes o independientes que hubieren acogido todo o parte de su ahorro previsional al régimen tributario señalado en la letra a) del inciso primero del artículo 20 L, del D.L. 3.500, que destinen todo…
 
-Archivo: `05-05-titulo-v-bonificacion-del-articulo-20-del-d-l-n-3500-de-1980.md` · 7 normas · 4.525 palabras
+Archivo: `05-05-titulo-v.md` · 7 normas · 4.525 palabras
 
 - A. Forma y Plazo en que las Administradoras de Fondos de Pensiones e Instituciones Autorizadas deben remitir al Servicio de Impuestos Internos la Información para la determinación de la Bonificación del Articulo 20 del D.L N° 3.500, de 1980
   - Capítulo I. Antecedentes legales y de normativa administrativa — 7 números · Bonificación
@@ -189,7 +189,7 @@ Cómo empieza (texto de la SP, Libro II, Título VI Tributación de la Cuenta de
 
 > En virtud del artículo 2° de la Ley N° 19.247 publicada en el Diario Oficial del 15 de septiembre de 1993, se sustituyó el inciso final del artículo 22 del D.L. N° 3.500, de 1980.
 
-Archivo: `06-06-titulo-vi-tributacion-de-la-cuenta-de-ahorro-voluntario.md` · 6 normas · 7.595 palabras
+Archivo: `06-06-titulo-vi.md` · 6 normas · 7.595 palabras
 
 - Capítulo I. Antecedentes generales — 7 números · Cuenta de ahorro voluntario, Tributación
 - Capítulo II. Régimen Tributario General — 16 números · Cuenta de ahorro voluntario, Tributación
@@ -208,7 +208,7 @@ Cómo empieza (texto de la SP, Libro II, Título VII, Letra A Traspaso de fondos
 
 > La Ley N° 19.947 de Matrimonio Civil en el Párrafo 1° del capítulo VII, considera especialmente, el análisis de la situación en materia de beneficios previsionales de los cónyuges que terminan su vínculo, a efectos de establecer compensaciones económicas para aquel ex cónyuge que se encuentre en una situación de menoscabo económico, independientemente del régimen matrimonial con que hayan contraído…
 
-Archivo: `07-07-titulo-vii-traspaso-de-fondos-por-compensacion-economica-y-por-leyes-e.md` · 10 normas · 7.128 palabras
+Archivo: `07-07-titulo-vii.md` · 10 normas · 7.128 palabras
 
 - A. Traspaso de fondos de la Cuenta de Capitalización Individual Obligatoria a modo de compensación económica en caso de divorcio o nulidad
   - Capítulo I. Introducción — 1 número · Compensación Económica, Cuenta de capitalización individual, Traspaso
@@ -224,7 +224,7 @@ Archivo: `07-07-titulo-vii-traspaso-de-fondos-por-compensacion-economica-y-por-l
 
 ### 8. Título VIII Pago de las cotizaciones
 
-- **Tamaño:** 36 normas · 168 números normativos · 35.058 palabras · 35 figuras · 3 archivos
+- **Tamaño:** 36 normas · 168 números normativos · 35.042 palabras · 35 figuras · 3 archivos
 - **Modificaciones:** 6 NCG entre 2014 y 2021; la más reciente, NCG N° 288 del 08-07-2021
 - **Materias:** Cotización, Declaración, Internet, Planilla de pago, Ahorro Previsional Voluntario, Planilla de declaración, Trabajador de casa particular, Trabajador dependiente, Afiliación voluntaria, Afiliado, Ahorro Previsional Colectivo
 
@@ -232,7 +232,7 @@ Cómo empieza (texto de la SP, Libro II, Título VIII, Letra A Procedimiento, Ca
 
 > La totalidad de las cotizaciones sobre las gratificaciones legales deben enterarse única y exclusivamente en la Administradora a que se encuentre afiliado el trabajador durante el mes en que dichas gratificaciones se devengaron, independientemente de la fecha en que el trabajador se haya afiliado al Sistema y del número de Administradoras a que haya estado afiliado con anterioridad. 2.
 
-Parte 1 de 3 · Archivo: `08-08-titulo-viii-pago-de-las-cotizaciones-parte-1.md` · 25 normas · 15.933 palabras
+Parte 1 de 3 · Archivo: `08-08-titulo-viii-parte-1.md` · 25 normas · 15.929 palabras
 
 - A. Procedimiento
   - Capítulo I. Cotizaciones sobre Gratificaciones Legales — 3 números · Cotización
@@ -259,12 +259,12 @@ Parte 1 de 3 · Archivo: `08-08-titulo-viii-pago-de-las-cotizaciones-parte-1.md`
   - Capítulo III. Información a proporcionar a la AFC sobre pago o declaración de cotizaciones — 1 número · Cotización
   - Anexos
 
-Parte 2 de 3 · Archivo: `09-08-titulo-viii-pago-de-las-cotizaciones-parte-2.md` · 8 normas · 14.772 palabras
+Parte 2 de 3 · Archivo: `09-08-titulo-viii-parte-2.md` · 8 normas · 14.764 palabras
 
 - E. Certificados, Planillas de cotizaciones previsionales e información sobre cotizaciones pagadas y declaradas y no pagadas de los trabajadores
   - Anexos
 
-Parte 3 de 3 · Archivo: `10-08-titulo-viii-pago-de-las-cotizaciones-parte-3.md` · 3 normas · 4.353 palabras
+Parte 3 de 3 · Archivo: `10-08-titulo-viii-parte-3.md` · 3 normas · 4.349 palabras
 
 - E. Certificados, Planillas de cotizaciones previsionales e información sobre cotizaciones pagadas y declaradas y no pagadas de los trabajadores
   - Anexos
@@ -279,7 +279,7 @@ Cómo empieza (texto de la SP, Libro II, Título IX, A. Instrucciones generales 
 
 > Para efectos de la correcta determinación de los intereses a aplicar a una deuda de cotizaciones obligatorias, las Administradoras deberán poner a disposición de los tribunales respectivos la información del o los Fondos de Pensiones y de la Administradora, en que se encontraba el saldo de la cuenta individual del afiliado, al último día del mes anterior a aquel en…
 
-Archivo: `11-09-titulo-ix-cobranza-de-cotizaciones-previsionales.md` · 18 normas · 16.199 palabras
+Archivo: `11-09-titulo-ix.md` · 18 normas · 16.199 palabras
 
 - A. Instrucciones generales referidas a la cobranza de cotizaciones previsionales — 6 números · Cotización
 - B. Cobranza judicial de cotizaciones previsionales
@@ -310,7 +310,7 @@ Cómo empieza (texto de la SP, Libro II, Título X, Letra A Información de empl
 
 > La Dirección del Trabajo tiene a su cargo la elaboración y publicación del Boletín de Infractores a la Legislación Laboral y Previsional, confeccionado tanto a partir de la información emanada de su propio actuar institucional como de la suministrada por todas las entidades previsionales del país, ya sean de carácter público como privado, entre las que se encuentran las Administradoras…
 
-Archivo: `12-10-titulo-x-informacion-de-empleadores-que-deben-proporcionar-las-afp.md` · 9 normas · 3.815 palabras
+Archivo: `12-10-titulo-x.md` · 9 normas · 3.815 palabras
 
 - A. Información de empleadores morosos para efectos del Boletín de Infractores a la Legislación Laboral y Previsional
   - Capítulo I. Aspectos generales — 3 números · Deuda previsional
@@ -332,7 +332,7 @@ Cómo empieza (texto de la SP, Libro II Cotizaciones Previsionales, Título XI E
 
 > La Ley N° 18.156, modificada por la Ley N° 18.726, establece la exención de la obligación de dar cumplimiento a las leyes de previsión que rigen para los trabajadores en general, respecto de las empresas que celebren contratos de trabajo con personal técnico extranjero y de este personal.
 
-Archivo: `13-11-titulo-xi-exencion-de-pago-de-cotizaciones-previsionales-a-tecnicos-ex.md` · 2 normas · 3.020 palabras
+Archivo: `13-11-titulo-xi.md` · 2 normas · 3.020 palabras
 
 - Anexo
   - Anexo — 1 número
@@ -347,7 +347,7 @@ Cómo empieza (texto de la SP, Libro II Cotizaciones Previsionales, Título XII 
 
 > En el Diario Oficial del 1° de abril de 2009 fue publicada la Ley N° 20.338, que estableció el subsidio al empleo de los trabajadores que tengan entre 18 y menos de 25 años de edad, subsidio que administrará el Servicio Nacional de Capacitación y Empleo (SENCE).
 
-Archivo: `14-12-titulo-xii-subsidio-al-empleo-de-la-ley-n-20-338-instrucciones-a-las-a.md` · 6 normas · 2.797 palabras
+Archivo: `14-12-titulo-xii.md` · 6 normas · 2.797 palabras
 
 - Anexos
   - Anexo Nº 1 Información de potenciales beneficiarios del Subsidio al Empleo de la Ley N° 20.338 — 11 números · Cotización, Subsidio
@@ -366,7 +366,7 @@ Cómo empieza (texto de la SP, Libro II, Título XIII El Subsidio a los Trabajad
 
 > La Ley N° 20.255 publicada en el Diario Oficial con fecha 17 de marzo de 2008, en su artículo 83 dispone que el Instituto de Previsión Social, es el organismo responsable de la determinación del monto del subsidio estatal y de remitirlo tanto a las Administradoras de Fondos de Pensiones, para que éstas los integren en la cuenta de capitalización…
 
-Archivo: `15-13-titulo-xiii-el-subsidio-a-los-trabajadores-jovenes.md` · 15 normas · 15.446 palabras
+Archivo: `15-13-titulo-xiii.md` · 15 normas · 15.446 palabras
 
 - Capítulo I. Introducción — 1 número · Subsidio, Trabajador joven
 - Capítulo II. Definiciones — 2 números · Subsidio, Trabajador joven
@@ -394,7 +394,7 @@ Cómo empieza (texto de la SP, Libro II, Título XIV Regulaciones comunes en rel
 
 > A más tardar el último día hábil del mes de febrero de cada año, las Administradoras de Fondos de Pensiones -en adelante AFP o Administradoras- deberán determinar y comunicar al Servicio de Impuestos Internos -en adelante SII- el porcentaje promedio simple de las comisiones por depósito de cotizaciones periódicas que hubieren cobrado a sus afiliados durante el año calendario anterior…
 
-Archivo: `16-14-titulo-xiv-regulaciones-comunes-en-relacion-al-intercambio-de-informac.md` · 4 normas · 4.207 palabras
+Archivo: `16-14-titulo-xiv.md` · 4 normas · 4.207 palabras
 
 - Capítulo I. Obligaciones de las Administradoras de Fondos de Pensiones — 8 números
 - Capítulo II. Información que el SII proporcionará sobre las Cotizaciones Obligatorias de los Trabajadores Independientes — 6 números
@@ -410,7 +410,7 @@ Cómo empieza (texto de la SP, Libro II, Título XV Subsidio al Empleo de la Muj
 
 > En el Diario Oficial del 17 de mayo de 2012 fue publicada la Ley N° 20.595, que estableció en su artículo 21 el subsidio al empleo de la mujer, para trabajadoras dependientes e independientes que tengan entre 25 y 60 años de edad, señalando a su vez que en todo lo que no sea contrario a la citada ley, dicho…
 
-Archivo: `17-15-titulo-xv-subsidio-al-empleo-de-la-mujer-de-la-ley-n-20-595-instruccio.md` · 5 normas · 2.924 palabras
+Archivo: `17-15-titulo-xv.md` · 5 normas · 2.924 palabras
 
 - Capítulo I. Marco Legal — 1 número
 - Capítulo II. Información a Entregar sobre el Pago de Cotizaciones — 6 números

@@ -6,7 +6,7 @@ Compendio de Normas del Sistema de Pensiones · Superintendencia de Pensiones de
 
 - Fuente: https://www.spensiones.cl/portal/compendio/596/w3-propertyvalue-2538.html
 - Extraído del portal: 2026-10-13T16:52:02+00:00
-- Contenido: **14 Títulos** en 39 archivos · 262 normas · 1.768 números normativos · 1.112 notas de actualización · 474 figuras · 506.495 palabras
+- Contenido: **14 Títulos** en 39 archivos · 262 normas · 1.768 números normativos · 1.112 notas de actualización · 474 figuras · 506.073 palabras
 
 Cada Título es un archivo, o varias partes si supera 15.000 palabras: se corta entre Capítulos, nunca dentro de uno, así que un Capítulo que solo ya supera ese tope queda entero en su parte. Para citar una norma se usa su Capítulo y su número: "Título III, Capítulo XXIV, N° 3".
 
@@ -14,18 +14,18 @@ Cada Título es un archivo, o varias partes si supera 15.000 palabras: se corta 
 
 | Título | Nombre | Archivos | Normas | Palabras | Última modificación |
 | --- | --- | ---: | ---: | ---: | --- |
-| I | Inversión de los Fondos de Pensiones, Políticas de Inversión y Solución de Conflictos de Interés | 5 | 38 | 65.177 | NCG N° 362 (09-04-2026) |
-| II | Inversión de los Fondos de Pensiones en el extranjero | 2 | 23 | 18.524 | NCG N° 320 (22-05-2024) |
-| III | Valorización de las Inversiones del Fondo de Pensiones y del Encaje | 2 | 13 | 19.297 | NCG N° 322 (11-06-2024) |
+| I | Inversión de los Fondos de Pensiones, Políticas de Inversión y Solución de Conflictos de Interés | 5 | 38 | 65.097 | NCG N° 362 (09-04-2026) |
+| II | Inversión de los Fondos de Pensiones en el extranjero | 2 | 23 | 18.506 | NCG N° 320 (22-05-2024) |
+| III | Valorización de las Inversiones del Fondo de Pensiones y del Encaje | 2 | 13 | 19.277 | NCG N° 322 (11-06-2024) |
 | IV | Comisiones Máximas que pueden ser pagadas con cargo a los Fondos de Pensiones | 1 | 18 | 16.847 | NCG N° 365 (30-06-2026) |
 | V | Publicación de la Composición de Cartera de Inversión de los Fondos de Pensiones | 1 | 3 | 591 | NCG N° 15 (05-07-2011) |
 | VI | Normas para la entrega de información de las Carteras de Inversión | 1 | 2 | 1.434 | NCG N° 256 (27-12-2019) |
-| VII | Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 8 | 44 | 172.659 | NCG N° 368 (20-07-2026) |
-| VIII | Informes Diarios que deben presentar las Administradoras de Fondos de Pensiones | 6 | 31 | 66.636 | NCG N° 322 (11-06-2024) |
+| VII | Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 8 | 44 | 172.519 | NCG N° 368 (20-07-2026) |
+| VIII | Informes Diarios que deben presentar las Administradoras de Fondos de Pensiones | 6 | 31 | 66.556 | NCG N° 322 (11-06-2024) |
 | IX | Directores y Juntas de Accionistas, Juntas de Tenedores de Bonos y Asambleas de Aportantes de Fondos de Inversión | 1 | 15 | 10.841 | NCG N° 354 (08-01-2026) |
 | X | Conflictos de Intereses | 1 | 15 | 18.260 | NCG N° 330 (13-02-2025) |
 | XI | Instrucciones en materia de prevención de lavado de activos y financiamiento del terrorismo | 1 | 2 | 3.770 | NCG N° 160 (27-10-2015) |
-| XII | Del Fondo Autónomo de Protección Previsional | 8 | 42 | 99.047 | NCG N° 370 (31-07-2026) |
+| XII | Del Fondo Autónomo de Protección Previsional | 8 | 42 | 98.963 | NCG N° 370 (31-07-2026) |
 | XIII | Del Administrador del Fondo Autónomo de Protección Previsional | 1 | 15 | 13.032 | NCG N° 360 (04-03-2026) |
 | XIV | De las comisiones que pueden ser pagadas con cargo al Fondo Autónomo de Protección Previsional | 1 | 1 | 380 | NCG N° 349 (12-09-2025) |
 
@@ -33,51 +33,51 @@ Cada Título es un archivo, o varias partes si supera 15.000 palabras: se corta 
 
 | Archivo | Título | Parte | Normas | Palabras |
 | --- | --- | :---: | ---: | ---: |
-| `01-01-titulo-i-inversion-de-los-fondos-de-pensiones-politicas-de-inversion-y-parte-1.md` | Título I Inversión de los Fondos de Pensiones, Políticas de Inversión y Solución de Conflictos de Interés | 1/5 | 2 | 13.976 |
-| `02-01-titulo-i-inversion-de-los-fondos-de-pensiones-politicas-de-inversion-y-parte-2.md` | Título I Inversión de los Fondos de Pensiones, Políticas de Inversión y Solución de Conflictos de Interés | 2/5 | 3 | 12.784 |
-| `03-01-titulo-i-inversion-de-los-fondos-de-pensiones-politicas-de-inversion-y-parte-3.md` | Título I Inversión de los Fondos de Pensiones, Políticas de Inversión y Solución de Conflictos de Interés | 3/5 | 10 | 15.618 |
-| `04-01-titulo-i-inversion-de-los-fondos-de-pensiones-politicas-de-inversion-y-parte-4.md` | Título I Inversión de los Fondos de Pensiones, Políticas de Inversión y Solución de Conflictos de Interés | 4/5 | 17 | 13.768 |
-| `05-01-titulo-i-inversion-de-los-fondos-de-pensiones-politicas-de-inversion-y-parte-5.md` | Título I Inversión de los Fondos de Pensiones, Políticas de Inversión y Solución de Conflictos de Interés | 5/5 | 6 | 9.031 |
-| `06-02-titulo-ii-inversion-de-los-fondos-de-pensiones-en-el-extranjero-parte-1.md` | Título II Inversión de los Fondos de Pensiones en el extranjero | 1/2 | 21 | 15.334 |
-| `07-02-titulo-ii-inversion-de-los-fondos-de-pensiones-en-el-extranjero-parte-2.md` | Título II Inversión de los Fondos de Pensiones en el extranjero | 2/2 | 2 | 3.190 |
-| `08-03-titulo-iii-valorizacion-de-las-inversiones-del-fondo-de-pensiones-y-de-parte-1.md` | Título III Valorización de las Inversiones del Fondo de Pensiones y del Encaje | 1/2 | 5 | 13.618 |
-| `09-03-titulo-iii-valorizacion-de-las-inversiones-del-fondo-de-pensiones-y-de-parte-2.md` | Título III Valorización de las Inversiones del Fondo de Pensiones y del Encaje | 2/2 | 8 | 5.679 |
-| `10-04-titulo-iv-comisiones-maximas-que-pueden-ser-pagadas-con-cargo-a-los-fo.md` | Título IV Comisiones Máximas que pueden ser pagadas con cargo a los Fondos de Pensiones | — | 18 | 16.847 |
-| `11-05-titulo-v-publicacion-de-la-composicion-de-cartera-de-inversion-de-los-.md` | Título V Publicación de la Composición de Cartera de Inversión de los Fondos de Pensiones | — | 3 | 591 |
-| `12-06-titulo-vi-normas-para-la-entrega-de-informacion-de-las-carteras-de-inv.md` | Título VI Normas para la entrega de información de las Carteras de Inversión | — | 2 | 1.434 |
-| `13-07-titulo-vii-contabilidad-de-los-fondos-de-pensiones-y-de-las-administra-parte-1.md` | Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 1/8 | 5 | 6.012 |
-| `14-07-titulo-vii-contabilidad-de-los-fondos-de-pensiones-y-de-las-administra-parte-2.md` | Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 2/8 | 1 | 66.063 |
-| `15-07-titulo-vii-contabilidad-de-los-fondos-de-pensiones-y-de-las-administra-parte-3.md` | Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 3/8 | 16 | 7.528 |
-| `16-07-titulo-vii-contabilidad-de-los-fondos-de-pensiones-y-de-las-administra-parte-4.md` | Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 4/8 | 1 | 16.993 |
-| `17-07-titulo-vii-contabilidad-de-los-fondos-de-pensiones-y-de-las-administra-parte-5.md` | Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 5/8 | 1 | 8.276 |
-| `18-07-titulo-vii-contabilidad-de-los-fondos-de-pensiones-y-de-las-administra-parte-6.md` | Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 6/8 | 8 | 12.974 |
-| `19-07-titulo-vii-contabilidad-de-los-fondos-de-pensiones-y-de-las-administra-parte-7.md` | Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 7/8 | 1 | 40.735 |
-| `20-07-titulo-vii-contabilidad-de-los-fondos-de-pensiones-y-de-las-administra-parte-8.md` | Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 8/8 | 11 | 14.078 |
-| `21-08-titulo-viii-informes-diarios-que-deben-presentar-las-administradoras-d-parte-1.md` | Título VIII Informes Diarios que deben presentar las Administradoras de Fondos de Pensiones | 1/6 | 3 | 1.706 |
-| `22-08-titulo-viii-informes-diarios-que-deben-presentar-las-administradoras-d-parte-2.md` | Título VIII Informes Diarios que deben presentar las Administradoras de Fondos de Pensiones | 2/6 | 1 | 15.842 |
-| `23-08-titulo-viii-informes-diarios-que-deben-presentar-las-administradoras-d-parte-3.md` | Título VIII Informes Diarios que deben presentar las Administradoras de Fondos de Pensiones | 3/6 | 5 | 14.472 |
-| `24-08-titulo-viii-informes-diarios-que-deben-presentar-las-administradoras-d-parte-4.md` | Título VIII Informes Diarios que deben presentar las Administradoras de Fondos de Pensiones | 4/6 | 7 | 15.900 |
-| `25-08-titulo-viii-informes-diarios-que-deben-presentar-las-administradoras-d-parte-5.md` | Título VIII Informes Diarios que deben presentar las Administradoras de Fondos de Pensiones | 5/6 | 12 | 14.606 |
-| `26-08-titulo-viii-informes-diarios-que-deben-presentar-las-administradoras-d-parte-6.md` | Título VIII Informes Diarios que deben presentar las Administradoras de Fondos de Pensiones | 6/6 | 3 | 4.110 |
-| `27-09-titulo-ix-directores-y-juntas-de-accionistas-juntas-de-tenedores-de-bo.md` | Título IX Directores y Juntas de Accionistas, Juntas de Tenedores de Bonos y Asambleas de Aportantes de Fondos de Inversión | — | 15 | 10.841 |
-| `28-10-titulo-x-conflictos-de-intereses.md` | Título X Conflictos de Intereses | — | 15 | 18.260 |
-| `29-11-titulo-xi-instrucciones-en-materia-de-prevencion-de-lavado-de-activos-.md` | Título XI Instrucciones en materia de prevención de lavado de activos y financiamiento del terrorismo | — | 2 | 3.770 |
-| `30-12-titulo-xii-del-fondo-autonomo-de-proteccion-previsional-parte-1.md` | Título XII Del Fondo Autónomo de Protección Previsional | 1/8 | 5 | 3.153 |
-| `31-12-titulo-xii-del-fondo-autonomo-de-proteccion-previsional-parte-2.md` | Título XII Del Fondo Autónomo de Protección Previsional | 2/8 | 1 | 26.736 |
-| `32-12-titulo-xii-del-fondo-autonomo-de-proteccion-previsional-parte-3.md` | Título XII Del Fondo Autónomo de Protección Previsional | 3/8 | 4 | 5.466 |
-| `33-12-titulo-xii-del-fondo-autonomo-de-proteccion-previsional-parte-4.md` | Título XII Del Fondo Autónomo de Protección Previsional | 4/8 | 8 | 14.641 |
-| `34-12-titulo-xii-del-fondo-autonomo-de-proteccion-previsional-parte-5.md` | Título XII Del Fondo Autónomo de Protección Previsional | 5/8 | 4 | 15.128 |
-| `35-12-titulo-xii-del-fondo-autonomo-de-proteccion-previsional-parte-6.md` | Título XII Del Fondo Autónomo de Protección Previsional | 6/8 | 5 | 13.446 |
-| `36-12-titulo-xii-del-fondo-autonomo-de-proteccion-previsional-parte-7.md` | Título XII Del Fondo Autónomo de Protección Previsional | 7/8 | 12 | 15.880 |
-| `37-12-titulo-xii-del-fondo-autonomo-de-proteccion-previsional-parte-8.md` | Título XII Del Fondo Autónomo de Protección Previsional | 8/8 | 3 | 4.597 |
-| `38-13-titulo-xiii-del-administrador-del-fondo-autonomo-de-proteccion-previsi.md` | Título XIII Del Administrador del Fondo Autónomo de Protección Previsional | — | 15 | 13.032 |
-| `39-14-titulo-xiv-de-las-comisiones-que-pueden-ser-pagadas-con-cargo-al-fondo.md` | Título XIV De las comisiones que pueden ser pagadas con cargo al Fondo Autónomo de Protección Previsional | — | 1 | 380 |
+| `01-01-titulo-i-parte-1.md` | Título I Inversión de los Fondos de Pensiones, Políticas de Inversión y Solución de Conflictos de Interés | 1/5 | 2 | 13.966 |
+| `02-01-titulo-i-parte-2.md` | Título I Inversión de los Fondos de Pensiones, Políticas de Inversión y Solución de Conflictos de Interés | 2/5 | 3 | 12.764 |
+| `03-01-titulo-i-parte-3.md` | Título I Inversión de los Fondos de Pensiones, Políticas de Inversión y Solución de Conflictos de Interés | 3/5 | 10 | 15.598 |
+| `04-01-titulo-i-parte-4.md` | Título I Inversión de los Fondos de Pensiones, Políticas de Inversión y Solución de Conflictos de Interés | 4/5 | 17 | 13.748 |
+| `05-01-titulo-i-parte-5.md` | Título I Inversión de los Fondos de Pensiones, Políticas de Inversión y Solución de Conflictos de Interés | 5/5 | 6 | 9.021 |
+| `06-02-titulo-ii-parte-1.md` | Título II Inversión de los Fondos de Pensiones en el extranjero | 1/2 | 21 | 15.325 |
+| `07-02-titulo-ii-parte-2.md` | Título II Inversión de los Fondos de Pensiones en el extranjero | 2/2 | 2 | 3.181 |
+| `08-03-titulo-iii-parte-1.md` | Título III Valorización de las Inversiones del Fondo de Pensiones y del Encaje | 1/2 | 5 | 13.608 |
+| `09-03-titulo-iii-parte-2.md` | Título III Valorización de las Inversiones del Fondo de Pensiones y del Encaje | 2/2 | 8 | 5.669 |
+| `10-04-titulo-iv.md` | Título IV Comisiones Máximas que pueden ser pagadas con cargo a los Fondos de Pensiones | — | 18 | 16.847 |
+| `11-05-titulo-v.md` | Título V Publicación de la Composición de Cartera de Inversión de los Fondos de Pensiones | — | 3 | 591 |
+| `12-06-titulo-vi.md` | Título VI Normas para la entrega de información de las Carteras de Inversión | — | 2 | 1.434 |
+| `13-07-titulo-vii-parte-1.md` | Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 1/8 | 5 | 6.002 |
+| `14-07-titulo-vii-parte-2.md` | Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 2/8 | 1 | 66.043 |
+| `15-07-titulo-vii-parte-3.md` | Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 3/8 | 16 | 7.508 |
+| `16-07-titulo-vii-parte-4.md` | Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 4/8 | 1 | 16.973 |
+| `17-07-titulo-vii-parte-5.md` | Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 5/8 | 1 | 8.256 |
+| `18-07-titulo-vii-parte-6.md` | Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 6/8 | 8 | 12.954 |
+| `19-07-titulo-vii-parte-7.md` | Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 7/8 | 1 | 40.715 |
+| `20-07-titulo-vii-parte-8.md` | Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones | 8/8 | 11 | 14.068 |
+| `21-08-titulo-viii-parte-1.md` | Título VIII Informes Diarios que deben presentar las Administradoras de Fondos de Pensiones | 1/6 | 3 | 1.698 |
+| `22-08-titulo-viii-parte-2.md` | Título VIII Informes Diarios que deben presentar las Administradoras de Fondos de Pensiones | 2/6 | 1 | 15.826 |
+| `23-08-titulo-viii-parte-3.md` | Título VIII Informes Diarios que deben presentar las Administradoras de Fondos de Pensiones | 3/6 | 5 | 14.456 |
+| `24-08-titulo-viii-parte-4.md` | Título VIII Informes Diarios que deben presentar las Administradoras de Fondos de Pensiones | 4/6 | 7 | 15.884 |
+| `25-08-titulo-viii-parte-5.md` | Título VIII Informes Diarios que deben presentar las Administradoras de Fondos de Pensiones | 5/6 | 12 | 14.590 |
+| `26-08-titulo-viii-parte-6.md` | Título VIII Informes Diarios que deben presentar las Administradoras de Fondos de Pensiones | 6/6 | 3 | 4.102 |
+| `27-09-titulo-ix.md` | Título IX Directores y Juntas de Accionistas, Juntas de Tenedores de Bonos y Asambleas de Aportantes de Fondos de Inversión | — | 15 | 10.841 |
+| `28-10-titulo-x.md` | Título X Conflictos de Intereses | — | 15 | 18.260 |
+| `29-11-titulo-xi.md` | Título XI Instrucciones en materia de prevención de lavado de activos y financiamiento del terrorismo | — | 2 | 3.770 |
+| `30-12-titulo-xii-parte-1.md` | Título XII Del Fondo Autónomo de Protección Previsional | 1/8 | 5 | 3.147 |
+| `31-12-titulo-xii-parte-2.md` | Título XII Del Fondo Autónomo de Protección Previsional | 2/8 | 1 | 26.724 |
+| `32-12-titulo-xii-parte-3.md` | Título XII Del Fondo Autónomo de Protección Previsional | 3/8 | 4 | 5.454 |
+| `33-12-titulo-xii-parte-4.md` | Título XII Del Fondo Autónomo de Protección Previsional | 4/8 | 8 | 14.629 |
+| `34-12-titulo-xii-parte-5.md` | Título XII Del Fondo Autónomo de Protección Previsional | 5/8 | 4 | 15.116 |
+| `35-12-titulo-xii-parte-6.md` | Título XII Del Fondo Autónomo de Protección Previsional | 6/8 | 5 | 13.434 |
+| `36-12-titulo-xii-parte-7.md` | Título XII Del Fondo Autónomo de Protección Previsional | 7/8 | 12 | 15.868 |
+| `37-12-titulo-xii-parte-8.md` | Título XII Del Fondo Autónomo de Protección Previsional | 8/8 | 3 | 4.591 |
+| `38-13-titulo-xiii.md` | Título XIII Del Administrador del Fondo Autónomo de Protección Previsional | — | 15 | 13.032 |
+| `39-14-titulo-xiv.md` | Título XIV De las comisiones que pueden ser pagadas con cargo al Fondo Autónomo de Protección Previsional | — | 1 | 380 |
 
 ## Qué contiene cada Título
 
 ### 1. Título I Inversión de los Fondos de Pensiones, Políticas de Inversión y Solución de Conflictos de Interés
 
-- **Tamaño:** 38 normas · 302 números normativos · 65.177 palabras · 38 figuras · 5 archivos
+- **Tamaño:** 38 normas · 302 números normativos · 65.097 palabras · 38 figuras · 5 archivos
 - **Modificaciones:** 34 NCG entre 2011 y 2026; la más reciente, NCG N° 362 del 09-04-2026
 - **Materias:** Inversión Fondo de Pensión, Sociedad Anónima, Custodia, Fondos de Pensiones, Encaje, Conflicto de Interés, Instrumento Financiero
 
@@ -85,20 +85,20 @@ Cómo empieza (texto de la SP, Libro IV, Título I, Letra A Inversiones del Fond
 
 > El artículo 24 A del D.L. N° 3.500, de 1980, establece que el equipo principal de profesionales y los ejecutivos principales que desarrollarán la gestión de inversiones de los Fondos de Pensiones, deben contar con experiencia en administración de activos, en una industria financiera sujeta a regulación y supervisión por la Comisión para el Mercado Financiero o en administración de…
 
-Parte 1 de 5 · Archivo: `01-01-titulo-i-inversion-de-los-fondos-de-pensiones-politicas-de-inversion-y-parte-1.md` · 2 normas · 13.976 palabras
+Parte 1 de 5 · Archivo: `01-01-titulo-i-parte-1.md` · 2 normas · 13.966 palabras
 
 - A. Inversiones del Fondo de Pensiones y del Encaje
   - Capítulo I. Estándares y Requisitos — 1 número · Encaje, Inversión Fondo de Pensión
   - Capítulo II. Inversiones del Fondo de Pensiones y del Encaje — 67 números · Encaje, Inversión Fondo de Pensión
 
-Parte 2 de 5 · Archivo: `02-01-titulo-i-inversion-de-los-fondos-de-pensiones-politicas-de-inversion-y-parte-2.md` · 3 normas · 12.784 palabras
+Parte 2 de 5 · Archivo: `02-01-titulo-i-parte-2.md` · 3 normas · 12.764 palabras
 
 - A. Inversiones del Fondo de Pensiones y del Encaje
   - Capítulo III. Operaciones con Instrumentos Derivados — 53 números · Encaje, Inversión Fondo de Pensión
   - Capítulo IV. Préstamo o Mutuo de Instrumentos Financieros de Emisores Nacionales — 10 números · Encaje, Instrumento Financiero, Inversión Fondo de Pensión
   - Capítulo V. Mutuos hipotecarios endosables, participaciones en créditos sindicados e infraestructura nacional — 12 números
 
-Parte 3 de 5 · Archivo: `03-01-titulo-i-inversion-de-los-fondos-de-pensiones-politicas-de-inversion-y-parte-3.md` · 10 normas · 15.618 palabras
+Parte 3 de 5 · Archivo: `03-01-titulo-i-parte-3.md` · 10 normas · 15.598 palabras
 
 - A. Inversiones del Fondo de Pensiones y del Encaje
   - Capítulo VI. Adquisición y enajenación de Instrumentos para los Fondos de Pensiones — 41 números · Encaje, Inversión Fondo de Pensión
@@ -111,7 +111,7 @@ Parte 3 de 5 · Archivo: `03-01-titulo-i-inversion-de-los-fondos-de-pensiones-po
   - Capítulo I. Introducción — 1 número · Conflicto de Interés, Inversión Fondo de Pensión
   - Capítulo II. Aspectos generales — 7 números · Conflicto de Interés, Inversión Fondo de Pensión
 
-Parte 4 de 5 · Archivo: `04-01-titulo-i-inversion-de-los-fondos-de-pensiones-politicas-de-inversion-y-parte-4.md` · 17 normas · 13.768 palabras
+Parte 4 de 5 · Archivo: `04-01-titulo-i-parte-4.md` · 17 normas · 13.748 palabras
 
 - B. Políticas de Inversión para los Fondos de Pensiones y de Solución de Conflictos de Interés
   - Capítulo III. Contenidos Mínimos de las Políticas de Inversión y de Solución de Conflictos de Interés — 2 números · Conflicto de Interés, Inversión Fondo de Pensión
@@ -130,7 +130,7 @@ Parte 4 de 5 · Archivo: `04-01-titulo-i-inversion-de-los-fondos-de-pensiones-po
 - D. Custodia de Títulos y Valores de los Fondos de Pensiones y del Encaje
   - Capítulo I. Introducción — 1 número · Custodia, Fondos de Pensiones
 
-Parte 5 de 5 · Archivo: `05-01-titulo-i-inversion-de-los-fondos-de-pensiones-politicas-de-inversion-y-parte-5.md` · 6 normas · 9.031 palabras
+Parte 5 de 5 · Archivo: `05-01-titulo-i-parte-5.md` · 6 normas · 9.021 palabras
 
 - D. Custodia de Títulos y Valores de los Fondos de Pensiones y del Encaje
   - Capítulo II. Disposiciones Legales Generales de Custodia de Títulos de los Fondos de Pensiones — 17 números · Custodia, Fondos de Pensiones
@@ -142,7 +142,7 @@ Parte 5 de 5 · Archivo: `05-01-titulo-i-inversion-de-los-fondos-de-pensiones-po
 
 ### 2. Título II Inversión de los Fondos de Pensiones en el extranjero
 
-- **Tamaño:** 23 normas · 96 números normativos · 18.524 palabras · 17 figuras · 2 archivos
+- **Tamaño:** 23 normas · 96 números normativos · 18.506 palabras · 17 figuras · 2 archivos
 - **Modificaciones:** 11 NCG entre 2011 y 2024; la más reciente, NCG N° 320 del 22-05-2024
 - **Materias:** Extranjero, Inversión Fondo de Pensión, Estado de Cambio, Conflicto de Interés, Cotización
 
@@ -150,7 +150,7 @@ Cómo empieza (texto de la SP, Libro IV Fondos de Pensiones y Regulación de Con
 
 > El presente Título establece normas relativas a las siguientes materias: a) Condiciones de los activos subyacentes, difusión de precios y contenido del informe independiente para notas estructuradas extranjeras. b) Condiciones para la realización de operaciones de préstamo de activos. c) Fuentes de información utilizadas para verificar el cumplimiento del requisito de valoración de instrumentos extranjeros. d) Control de la clasificación…
 
-Parte 1 de 2 · Archivo: `06-02-titulo-ii-inversion-de-los-fondos-de-pensiones-en-el-extranjero-parte-1.md` · 21 normas · 15.334 palabras
+Parte 1 de 2 · Archivo: `06-02-titulo-ii-parte-1.md` · 21 normas · 15.325 palabras
 
 - A. Condiciones de  elegibilidad de Instrumentos y Contratos Financieros
   - Capítulo I. De las Notas Estructuradas y Préstamo de Activos — 3 números · Extranjero, Inversión Fondo de Pensión
@@ -171,7 +171,7 @@ Parte 1 de 2 · Archivo: `06-02-titulo-ii-inversion-de-los-fondos-de-pensiones-e
   - Capítulo I. Introducción — 1 número · Estado de Cambio, Extranjero, Inversión Fondo de Pensión
   - Capítulo II. Instrucciones generales — 8 números · Estado de Cambio, Extranjero, Inversión Fondo de Pensión
 
-Parte 2 de 2 · Archivo: `07-02-titulo-ii-inversion-de-los-fondos-de-pensiones-en-el-extranjero-parte-2.md` · 2 normas · 3.190 palabras
+Parte 2 de 2 · Archivo: `07-02-titulo-ii-parte-2.md` · 2 normas · 3.181 palabras
 
 - E. Estado de Cambio de la Inversión Extranjera de los Fondos  de Pensiones
   - Capítulo III. Instrucciones específicas — 2 números · Estado de Cambio, Extranjero, Inversión Fondo de Pensión
@@ -179,7 +179,7 @@ Parte 2 de 2 · Archivo: `07-02-titulo-ii-inversion-de-los-fondos-de-pensiones-e
 
 ### 3. Título III Valorización de las Inversiones del Fondo de Pensiones y del Encaje
 
-- **Tamaño:** 13 normas · 133 números normativos · 19.297 palabras · 54 figuras · 2 archivos
+- **Tamaño:** 13 normas · 133 números normativos · 19.277 palabras · 54 figuras · 2 archivos
 - **Modificaciones:** 17 NCG entre 2011 y 2024; la más reciente, NCG N° 322 del 11-06-2024
 - **Materias:** Instrumento Financiero, Valorización, Encaje, Inversión Fondo de Pensión, Fondos de Pensiones
 
@@ -187,7 +187,7 @@ Cómo empieza (texto de la SP, Libro IV, Título III Valorización de las Invers
 
 > El presente Título establece la metodología de valoración de los instrumentos financieros y contratos objeto de las inversiones de Fondos de Pensiones.
 
-Parte 1 de 2 · Archivo: `08-03-titulo-iii-valorizacion-de-las-inversiones-del-fondo-de-pensiones-y-de-parte-1.md` · 5 normas · 13.618 palabras
+Parte 1 de 2 · Archivo: `08-03-titulo-iii-parte-1.md` · 5 normas · 13.608 palabras
 
 - Capítulo I. Introducción — 1 número · Encaje, Inversión Fondo de Pensión, Valorización
 - Capítulo II Valoración de Instrumentos, Operaciones y Contratos Nacionales y Extranjeros de los Fondos de Pensiones
@@ -196,7 +196,7 @@ Parte 1 de 2 · Archivo: `08-03-titulo-iii-valorizacion-de-las-inversiones-del-f
   - II.3 Valoración de Operaciones con Instrumentos Derivados — 19 números · Instrumento Financiero, Valorización
   - II.4 Valoración de Instrumentos Nacionales y Extranjeros otorgados en Préstamo o Mutuo — 2 números · Instrumento Financiero, Valorización
 
-Parte 2 de 2 · Archivo: `09-03-titulo-iii-valorizacion-de-las-inversiones-del-fondo-de-pensiones-y-de-parte-2.md` · 8 normas · 5.679 palabras
+Parte 2 de 2 · Archivo: `09-03-titulo-iii-parte-2.md` · 8 normas · 5.669 palabras
 
 - Capítulo II Valoración de Instrumentos, Operaciones y Contratos Nacionales y Extranjeros de los Fondos de Pensiones
   - II.5 Valoración de Activos Alternativos — 10 números · Inversión Fondo de Pensión
@@ -219,7 +219,7 @@ Cómo empieza (texto de la SP, Libro IV Fondos de Pensiones y Regulación de Con
 
 > De acuerdo con lo dispuesto en el inciso sexto del artículo 45 bis del D.L. N° 3.500, de 1980, esta Superintendencia, conjuntamente con la Superintendencia de Bancos e Instituciones Financieras y la Comisión para el Mercado Financiero, dictan anualmente la Resolución a que se refiere dicha norma legal, en cuya virtud se establecen las comisiones máximas que pueden ser pagadas…
 
-Archivo: `10-04-titulo-iv-comisiones-maximas-que-pueden-ser-pagadas-con-cargo-a-los-fo.md` · 18 normas · 16.847 palabras
+Archivo: `10-04-titulo-iv.md` · 18 normas · 16.847 palabras
 
 - A. Comisiones Máximas para fondos mutuos, fondos de inversión y títulos representativos de índices financieros
   - Capítulo I. Definiciones — 9 números · Comisión Máxima
@@ -249,7 +249,7 @@ Cómo empieza (texto de la SP, Libro IV Fondos de Pensiones y Regulación de Con
 
 > El presente Título regula la publicación de la composición de la cartera de inversión de los distintos Fondos de Pensiones, en conformidad a las modificaciones introducidas al D.L. N° 3.500, de 1980, por la Ley N° 20.255, publicada en el Diario Oficial con fecha 17 de marzo de 2008, en la cual se incorpora el inciso final del artículo 26…
 
-Archivo: `11-05-titulo-v-publicacion-de-la-composicion-de-cartera-de-inversion-de-los-.md` · 3 normas · 591 palabras
+Archivo: `11-05-titulo-v.md` · 3 normas · 591 palabras
 
 - Anexos
   - Anexo Nº 1 Constitución de la Cartera de Inversión agregada de los Fondos de Pensiones — 1 número · Inversión Fondo de Pensión
@@ -265,14 +265,14 @@ Cómo empieza (texto de la SP, Libro IV, Título VI Normas para la entrega de in
 
 > El presente Título se refiere a la información que deben proporcionar las Administradoras de Fondos de Pensiones respecto de la cartera de inversión de los Fondos de Pensiones.
 
-Archivo: `12-06-titulo-vi-normas-para-la-entrega-de-informacion-de-las-carteras-de-inv.md` · 2 normas · 1.434 palabras
+Archivo: `12-06-titulo-vi.md` · 2 normas · 1.434 palabras
 
 - Capítulo I. Introducción — 1 número · Cartera de Inversión
 - Capítulo II. Carteras de Inversión de los Fondos de Pensiones — 6 números · Cartera de Inversión
 
 ### 7. Título VII Contabilidad de los Fondos de Pensiones y de las Administradoras de Fondos de Pensiones
 
-- **Tamaño:** 44 normas · 185 números normativos · 172.659 palabras · 191 figuras · 8 archivos
+- **Tamaño:** 44 normas · 185 números normativos · 172.519 palabras · 191 figuras · 8 archivos
 - **Modificaciones:** 26 NCG entre 2011 y 2026; la más reciente, NCG N° 368 del 20-07-2026
 - **Materias:** Contabilidad, Informe Financiero, Fondos de Pensiones, Memoria anual, Administradora de Fondos de Pensiones, Sociedad Anónima
 
@@ -280,7 +280,7 @@ Cómo empieza (texto de la SP, Libro IV, Título VII, Letra A Normas Contables, 
 
 > La Ley N° 20.255, publicada en el Diario Oficial de fecha 17 de marzo de 2008, que crea el Sistema de Pensiones Solidarias, introdujo diversas modificaciones al Sistema de Pensiones regido por el D.L. N° 3.500, de 1980, tendientes a perfeccionar el sistema de capitalización individual, incorporando nuevos mecanismos e incentivos al ahorro previsional, tales como el ahorro previsional voluntario…
 
-Parte 1 de 8 · Archivo: `13-07-titulo-vii-contabilidad-de-los-fondos-de-pensiones-y-de-las-administra-parte-1.md` · 5 normas · 6.012 palabras
+Parte 1 de 8 · Archivo: `13-07-titulo-vii-parte-1.md` · 5 normas · 6.002 palabras
 
 - A. Normas Contables
   - Capítulo I. Introducción — 1 número · Administradora de Fondos de Pensiones, Contabilidad, Fondos de Pensiones
@@ -289,12 +289,12 @@ Parte 1 de 8 · Archivo: `13-07-titulo-vii-contabilidad-de-los-fondos-de-pension
   - Capítulo IV. Tratamiento de los cheques girados por el Fondo de Pensiones y que caducaron por no ser cobrados dentro del plazo legal — 7 números · Administradora de Fondos de Pensiones, Contabilidad, Fondos de Pensiones
   - Capítulo V. Plan de Cuentas de los Fondos de Pensiones — 1 número · Contabilidad, Fondos de Pensiones
 
-Parte 2 de 8 · Archivo: `14-07-titulo-vii-contabilidad-de-los-fondos-de-pensiones-y-de-las-administra-parte-2.md` · 1 normas · 66.063 palabras
+Parte 2 de 8 · Archivo: `14-07-titulo-vii-parte-2.md` · 1 normas · 66.043 palabras
 
 - A. Normas Contables
   - Capítulo VI. Manual de Cuentas de los Fondos de Pensiones — 14 números · Contabilidad, Fondos de Pensiones
 
-Parte 3 de 8 · Archivo: `15-07-titulo-vii-contabilidad-de-los-fondos-de-pensiones-y-de-las-administra-parte-3.md` · 16 normas · 7.528 palabras
+Parte 3 de 8 · Archivo: `15-07-titulo-vii-parte-3.md` · 16 normas · 7.508 palabras
 
 - A. Normas Contables
   - Capítulo VII. Emisión y formalidades del Libro Mayor — 3 números · Contabilidad, Fondos de Pensiones
@@ -308,17 +308,17 @@ Parte 3 de 8 · Archivo: `15-07-titulo-vii-contabilidad-de-los-fondos-de-pension
   - Capítulo I. Introducción — 1 número · Fondos de Pensiones, Informe Financiero
   - Capítulo II. Informe Financiero de los Fondos de Pensiones — 2 números · Informe Financiero
 
-Parte 4 de 8 · Archivo: `16-07-titulo-vii-contabilidad-de-los-fondos-de-pensiones-y-de-las-administra-parte-4.md` · 1 normas · 16.993 palabras
+Parte 4 de 8 · Archivo: `16-07-titulo-vii-parte-4.md` · 1 normas · 16.973 palabras
 
 - C. Informes Financieros de los Fondos de Pensiones: Presentación
   - Capítulo II. Informe Financiero de los Fondos de Pensiones — 2 números · Informe Financiero
 
-Parte 5 de 8 · Archivo: `17-07-titulo-vii-contabilidad-de-los-fondos-de-pensiones-y-de-las-administra-parte-5.md` · 1 normas · 8.276 palabras
+Parte 5 de 8 · Archivo: `17-07-titulo-vii-parte-5.md` · 1 normas · 8.256 palabras
 
 - C. Informes Financieros de los Fondos de Pensiones: Presentación
   - Capítulo II. Informe Financiero de los Fondos de Pensiones — 2 números · Informe Financiero
 
-Parte 6 de 8 · Archivo: `18-07-titulo-vii-contabilidad-de-los-fondos-de-pensiones-y-de-las-administra-parte-6.md` · 8 normas · 12.974 palabras
+Parte 6 de 8 · Archivo: `18-07-titulo-vii-parte-6.md` · 8 normas · 12.954 palabras
 
 - C. Informes Financieros de los Fondos de Pensiones: Presentación
   - Capítulo II. Informe Financiero de los Fondos de Pensiones — 2 números · Informe Financiero
@@ -328,12 +328,12 @@ Parte 6 de 8 · Archivo: `18-07-titulo-vii-contabilidad-de-los-fondos-de-pension
   - Capítulo I. Introducción — 1 número · Administradora de Fondos de Pensiones, Informe Financiero, Memoria anual
   - Capítulo II. Normas de preparación de los Estados Financieros — 1 número · Informe Financiero
 
-Parte 7 de 8 · Archivo: `19-07-titulo-vii-contabilidad-de-los-fondos-de-pensiones-y-de-las-administra-parte-7.md` · 1 normas · 40.735 palabras
+Parte 7 de 8 · Archivo: `19-07-titulo-vii-parte-7.md` · 1 normas · 40.715 palabras
 
 - D. Informe Financiero de las Administradoras de Fondos de Pensiones y sus Sociedades Filiales, Memoria Anual, y  determinación del Patrimonio Neto
   - Capítulo II. Normas de preparación de los Estados Financieros — 1 número · Informe Financiero
 
-Parte 8 de 8 · Archivo: `20-07-titulo-vii-contabilidad-de-los-fondos-de-pensiones-y-de-las-administra-parte-8.md` · 11 normas · 14.078 palabras
+Parte 8 de 8 · Archivo: `20-07-titulo-vii-parte-8.md` · 11 normas · 14.068 palabras
 
 - D. Informe Financiero de las Administradoras de Fondos de Pensiones y sus Sociedades Filiales, Memoria Anual, y  determinación del Patrimonio Neto
   - Capítulo III. Estados Financieros Anuales Auditados — 2 números · Informe Financiero
@@ -347,7 +347,7 @@ Parte 8 de 8 · Archivo: `20-07-titulo-vii-contabilidad-de-los-fondos-de-pension
 
 ### 8. Título VIII Informes Diarios que deben presentar las Administradoras de Fondos de Pensiones
 
-- **Tamaño:** 31 normas · 232 números normativos · 66.636 palabras · 42 figuras · 6 archivos
+- **Tamaño:** 31 normas · 232 números normativos · 66.556 palabras · 42 figuras · 6 archivos
 - **Modificaciones:** 20 NCG entre 2011 y 2024; la más reciente, NCG N° 322 del 11-06-2024
 - **Materias:** Informe Diario, Administradora de Fondos de Pensiones, Informe Financiero
 
@@ -355,18 +355,18 @@ Cómo empieza (texto de la SP, Libro IV, Título VIII Informes Diarios que deben
 
 > La Ley N° 20.255, de fecha 17 de marzo de 2008, que establece la reforma previsional, introdujo diversas modificaciones al Sistema de Pensiones regido por el D.L. N° 3.500, de 1980, tendientes a perfeccionar el sistema de capitalización individual, incorporando nuevos mecanismos e incentivos al ahorro previsional, tales como el ahorro previsional voluntario colectivo, la entrega de bonificaciones y subsidios…
 
-Parte 1 de 6 · Archivo: `21-08-titulo-viii-informes-diarios-que-deben-presentar-las-administradoras-d-parte-1.md` · 3 normas · 1.706 palabras
+Parte 1 de 6 · Archivo: `21-08-titulo-viii-parte-1.md` · 3 normas · 1.698 palabras
 
 - Capítulo I. Introducción — 1 número · Administradora de Fondos de Pensiones, Informe Diario
 - Capítulo II. Informe Diario — 1 número · Administradora de Fondos de Pensiones, Informe Diario
 - Capítulo III. Intrucciones generales — 8 números · Administradora de Fondos de Pensiones, Informe Diario
 
-Parte 2 de 6 · Archivo: `22-08-titulo-viii-informes-diarios-que-deben-presentar-las-administradoras-d-parte-2.md` · 1 normas · 15.842 palabras
+Parte 2 de 6 · Archivo: `22-08-titulo-viii-parte-2.md` · 1 normas · 15.826 palabras
 
 - Capítulo IV. Instrucciones para llenar los Formularios Electrónicos D-2 del Informe Diario
   - A. Instrucciones para llenar el Formulario D-1. Balance diario, flujo de caja, estado de variación del patrimonio y otra información general — 5 números · Informe Diario
 
-Parte 3 de 6 · Archivo: `23-08-titulo-viii-informes-diarios-que-deben-presentar-las-administradoras-d-parte-3.md` · 5 normas · 14.472 palabras
+Parte 3 de 6 · Archivo: `23-08-titulo-viii-parte-3.md` · 5 normas · 14.456 palabras
 
 - Capítulo IV. Instrucciones para llenar los Formularios Electrónicos D-2 del Informe Diario
   - B. Instrucciones para llenar el Formulario D-2.1. Saldos diarios en cuentas corrientes banco inversiones nacionales — 9 números · Informe Diario
@@ -375,7 +375,7 @@ Parte 3 de 6 · Archivo: `23-08-titulo-viii-informes-diarios-que-deben-presentar
   - E. Instrucciones para llenar el Formulario D-2.4. Movimientos diarios de la Cartera y de la Custodia de las Inversiones del Fondo de Pensiones: Instrumentos Financieros transados en mercados extranjeros — 26 números · Informe Diario
   - F. Instrucciones para llenar el Formulario D-2.5. Movimientos diarios de la Cartera de Inversiones del Fondo de Pensiones: Contratos de opciones, futuros y forwards en el mercado nacional — 2 números · Informe Diario
 
-Parte 4 de 6 · Archivo: `24-08-titulo-viii-informes-diarios-que-deben-presentar-las-administradoras-d-parte-4.md` · 7 normas · 15.900 palabras
+Parte 4 de 6 · Archivo: `24-08-titulo-viii-parte-4.md` · 7 normas · 15.884 palabras
 
 - Capítulo IV. Instrucciones para llenar los Formularios Electrónicos D-2 del Informe Diario
   - G. Instrucciones para llenar el Formulario D-2.6. Movimientos diarios de la Cartera de Inversiones del Fondo de Pensiones: Contratos de opciones, futuros y forwards en el extranjero — 2 números · Informe Diario
@@ -386,7 +386,7 @@ Parte 4 de 6 · Archivo: `24-08-titulo-viii-informes-diarios-que-deben-presentar
   - L. Instrucciones para llenar el formulario D-2.11: Garantía enterada en efectivo, provisión y cobro de dividendos y otros eventos de capital diarios de la cartera de inversiones del fondo — 2 números · Informe Diario
   - M. Instrucciones para llenar el Formulario D-2.12: Bonos de Reconocimiento vencidos por cobrar — 2 números · Informe Diario
 
-Parte 5 de 6 · Archivo: `25-08-titulo-viii-informes-diarios-que-deben-presentar-las-administradoras-d-parte-5.md` · 12 normas · 14.606 palabras
+Parte 5 de 6 · Archivo: `25-08-titulo-viii-parte-5.md` · 12 normas · 14.590 palabras
 
 - Capítulo IV. Instrucciones para llenar los Formularios Electrónicos D-2 del Informe Diario
   - N. Instrucciones para llenar el Formulario D-2.13: Transacciones de nuevos instrumentos de la cartera de inversiones del Fondo de Pensiones: nuevos fondos mutuos y de inversión nacionales y promesas de suscripción de cuotas de fondos de inversión nacionales — 3 números · Informe Diario
@@ -402,7 +402,7 @@ Parte 5 de 6 · Archivo: `25-08-titulo-viii-informes-diarios-que-deben-presentar
 - Capítulo V. Instrucciones para llenar los formularios electrónicos D-3 del informe Diario — 3 números
 - Capítulo VI. Códigos de instrumentos — 6 números
 
-Parte 6 de 6 · Archivo: `26-08-titulo-viii-informes-diarios-que-deben-presentar-las-administradoras-d-parte-6.md` · 3 normas · 4.110 palabras
+Parte 6 de 6 · Archivo: `26-08-titulo-viii-parte-6.md` · 3 normas · 4.102 palabras
 
 - Capítulo VII. Descuadraturas de valor cuota — 6 números · Informe Diario
 - Capítulo VIII. Especificaciones Técnicas del Informe Diario de los Fondos de Pensiones — 4 números
@@ -419,7 +419,7 @@ Cómo empieza (texto de la SP, Libro IV, Título IX, Letra A Asistencia y Partic
 
 > El inciso segundo del artículo 45 bis del D.L. N° 3.500 de 1980, establece la obligación de las Administradoras de Fondos de Pensiones de concurrir a las juntas de accionistas de las sociedades señaladas en la letra g) del artículo 45, a las juntas de tenedores de bonos y a las asambleas de aportantes de los fondos de inversión señalados…
 
-Archivo: `27-09-titulo-ix-directores-y-juntas-de-accionistas-juntas-de-tenedores-de-bo.md` · 15 normas · 10.841 palabras
+Archivo: `27-09-titulo-ix.md` · 15 normas · 10.841 palabras
 
 - A. Asistencia y Participación en Juntas de Accionistas, Juntas de Tenedores de Bonos y Asambleas de Aportantes de Fondos de Inversión en Representación de los Fondos de Pensiones
   - Capítulo I. Obligación de asistencia — 1 número · Director, Inversión Fondo de Pensión, Junta de Accionistas
@@ -448,7 +448,7 @@ Cómo empieza (texto de la SP, Libro IV, Título X, Letra A. Regulación de los 
 
 > El Título XIV del D.L. N° 3500 de 1980, denominado "De la Regulación de Conflictos de Intereses", establece en sus párrafos 1 y 2 un conjunto de responsabilidades y prohibiciones a que deben sujetarse las Administradoras y las personas que participan en las decisiones de inversión de los Fondos de Pensiones o que, en razón de su cargo o posición,…
 
-Archivo: `28-10-titulo-x-conflictos-de-intereses.md` · 15 normas · 18.260 palabras
+Archivo: `28-10-titulo-x.md` · 15 normas · 18.260 palabras
 
 - A.Regulación de los párrafos 1,2 y 5 del Título XIV del D.L. N°3500 de 1980
   - Capítulo I. Disposiciones generales — 1 número · Conflicto de Interés
@@ -478,14 +478,14 @@ Cómo empieza (texto de la SP, Libro IV, Título XI Instrucciones en materia de 
 
 > Las Administradoras de Fondos de Pensiones, cuyas funciones son esencialmente previsionales podrían, por las características de algunos de sus productos, llegar a ser utilizadas por terceros para ocultar, gestionar o transferir fondos provenientes de actividades ilícitas, como así también, para dar apariencia de legitimidad a activos provenientes de tales actividades.
 
-Archivo: `29-11-titulo-xi-instrucciones-en-materia-de-prevencion-de-lavado-de-activos-.md` · 2 normas · 3.770 palabras
+Archivo: `29-11-titulo-xi.md` · 2 normas · 3.770 palabras
 
 - Capítulo I. Aspectos Generales — 1 número · Conflicto de Interés
 - Capítulo II. Sistema de Prevención de Lavado de Activos y Financiamiento del Terrorismo — 11 números · Conflicto de Interés
 
 ### 12. Título XII Del Fondo Autónomo de Protección Previsional
 
-- **Tamaño:** 42 normas · 513 números normativos · 99.047 palabras · 76 figuras · 8 archivos
+- **Tamaño:** 42 normas · 513 números normativos · 98.963 palabras · 76 figuras · 8 archivos
 - **Modificaciones:** 7 NCG entre 2025 y 2026; la más reciente, NCG N° 370 del 31-07-2026
 - **Materias:** Contabilidad, Fondos de Pensiones
 
@@ -493,7 +493,7 @@ Cómo empieza (texto de la SP, Libro IV, Título XII, Letra A Normas Contables, 
 
 > La Ley N° 21.735 publicada en el Diario Oficial el 26 de marzo de 2025, creó un nuevo Sistema Mixto de Pensiones y un Seguro Social en el pilar contributivo, mejoró la Pensión Garantizada Universal y estableció beneficios y modificaciones regulatorias.
 
-Parte 1 de 8 · Archivo: `30-12-titulo-xii-del-fondo-autonomo-de-proteccion-previsional-parte-1.md` · 5 normas · 3.153 palabras
+Parte 1 de 8 · Archivo: `30-12-titulo-xii-parte-1.md` · 5 normas · 3.147 palabras
 
 - A. Normas Contables
   - Capítulo I. Introducción — 1 número
@@ -502,12 +502,12 @@ Parte 1 de 8 · Archivo: `30-12-titulo-xii-del-fondo-autonomo-de-proteccion-prev
   - Capítulo IV. Generalidades — 1 número
   - Capítulo V. Plan de Cuentas del Fondo Autónomo de Protección Previsional — 1 número
 
-Parte 2 de 8 · Archivo: `31-12-titulo-xii-del-fondo-autonomo-de-proteccion-previsional-parte-2.md` · 1 normas · 26.736 palabras
+Parte 2 de 8 · Archivo: `31-12-titulo-xii-parte-2.md` · 1 normas · 26.724 palabras
 
 - A. Normas Contables
   - Capítulo VI. Manual de Cuentas del Fondo Autónomo de Protección Previsional — 56 números · Contabilidad, Fondos de Pensiones
 
-Parte 3 de 8 · Archivo: `32-12-titulo-xii-del-fondo-autonomo-de-proteccion-previsional-parte-3.md` · 4 normas · 5.466 palabras
+Parte 3 de 8 · Archivo: `32-12-titulo-xii-parte-3.md` · 4 normas · 5.454 palabras
 
 - A. Normas Contables
   - Capítulo VII. Instrucciones Operacionales y de Registro Contable — 9 números
@@ -515,7 +515,7 @@ Parte 3 de 8 · Archivo: `32-12-titulo-xii-del-fondo-autonomo-de-proteccion-prev
 - B. Informes Financieros del Fondo Autónomo de Protección Previsional
   - Capítulo I. Instrucciones Generales a los Informes Financieros del Fondo Autónomo de Protección Previsional — 1 número
 
-Parte 4 de 8 · Archivo: `33-12-titulo-xii-del-fondo-autonomo-de-proteccion-previsional-parte-4.md` · 8 normas · 14.641 palabras
+Parte 4 de 8 · Archivo: `33-12-titulo-xii-parte-4.md` · 8 normas · 14.629 palabras
 
 - B. Informes Financieros del Fondo Autónomo de Protección Previsional
   - Capítulo II. Estados Financieros del Fondo Autónomo de Protección Previsional — 1 número
@@ -526,22 +526,22 @@ Parte 4 de 8 · Archivo: `33-12-titulo-xii-del-fondo-autonomo-de-proteccion-prev
   - Capítulo I. Introducción — 1 número
   - Capítulo II. Instrucciones Generales — 8 números
 
-Parte 5 de 8 · Archivo: `34-12-titulo-xii-del-fondo-autonomo-de-proteccion-previsional-parte-5.md` · 4 normas · 15.128 palabras
+Parte 5 de 8 · Archivo: `34-12-titulo-xii-parte-5.md` · 4 normas · 15.116 palabras
 
 - C. Informe Diario que debe presentar la Administradora del Fondo Autónomo de Protección Previsional
   - Capítulo III. Instrucciones para llenar los Formularios Electrónicos del Informe Diario
 
-Parte 6 de 8 · Archivo: `35-12-titulo-xii-del-fondo-autonomo-de-proteccion-previsional-parte-6.md` · 5 normas · 13.446 palabras
+Parte 6 de 8 · Archivo: `35-12-titulo-xii-parte-6.md` · 5 normas · 13.434 palabras
 
 - C. Informe Diario que debe presentar la Administradora del Fondo Autónomo de Protección Previsional
   - Capítulo III. Instrucciones para llenar los Formularios Electrónicos del Informe Diario
 
-Parte 7 de 8 · Archivo: `36-12-titulo-xii-del-fondo-autonomo-de-proteccion-previsional-parte-7.md` · 12 normas · 15.880 palabras
+Parte 7 de 8 · Archivo: `36-12-titulo-xii-parte-7.md` · 12 normas · 15.868 palabras
 
 - C. Informe Diario que debe presentar la Administradora del Fondo Autónomo de Protección Previsional
   - Capítulo III. Instrucciones para llenar los Formularios Electrónicos del Informe Diario
 
-Parte 8 de 8 · Archivo: `37-12-titulo-xii-del-fondo-autonomo-de-proteccion-previsional-parte-8.md` · 3 normas · 4.597 palabras
+Parte 8 de 8 · Archivo: `37-12-titulo-xii-parte-8.md` · 3 normas · 4.591 palabras
 
 - C. Informe Diario que debe presentar la Administradora del Fondo Autónomo de Protección Previsional
   - Capítulo III. Instrucciones para llenar los Formularios Electrónicos del Informe Diario
@@ -556,7 +556,7 @@ Cómo empieza (texto de la SP, Libro IV, Título XIII, Letra A Estados Financier
 
 > Norma de preparación de los Estados Financieros del Administrador del Fondo Autónomo de Protección Previsional (AFAPP) Los estados financieros deben ser confeccionados de acuerdo con las normas impartidas por esta Superintendencia y, en lo no regulado por ésta, deberán ceñirse a las normas contables para las entidades públicas, contenidas en la Resolución N° 16 de 2015 de la Contraloría General…
 
-Archivo: `38-13-titulo-xiii-del-administrador-del-fondo-autonomo-de-proteccion-previsi.md` · 15 normas · 13.032 palabras
+Archivo: `38-13-titulo-xiii.md` · 15 normas · 13.032 palabras
 
 - A. Estados Financieros del Administrador del Fondo Autónomo de Protección Previsional
   - Capítulo I. Introducción — 4 números
@@ -586,7 +586,7 @@ Cómo empieza (texto de la SP, Libro IV Fondos de Pensiones y Regulación de Con
 
 > En virtud del artículo 65 de la Ley N°21.735, el Administrador del Fondo Autónomo de Protección Previsional quedará sujeto en materia de inversiones, a las mismas normas que rigen a las Administradoras de Fondos de Pensiones, especialmente en materias de adquisición, mantención, custodia y enajenación de instrumentos financieros, conforme al D.L. N° 3.500, de 1980 y su normativa complementaria, en…
 
-Archivo: `39-14-titulo-xiv-de-las-comisiones-que-pueden-ser-pagadas-con-cargo-al-fondo.md` · 1 normas · 380 palabras
+Archivo: `39-14-titulo-xiv.md` · 1 normas · 380 palabras
 
 - (sin subdivisiones)
 

@@ -99,11 +99,11 @@ del Compendio:
 
 ```
 data/web/book-i/markdown/
-├── 01-01-titulo-i-afiliacion-e-incorporacion-a-una-administradora-...md
-├── 02-02-titulo-ii-desafiliacion.md
-├── 03-03-titulo-iii-administracion-de-cuentas-personales-parte-1.md
+├── 01-01-titulo-i.md
+├── 02-02-titulo-ii.md
+├── 03-03-titulo-iii-parte-1.md
 ├── …
-└── 21-12-titulo-xii-de-la-informacion-sobre-la-cotizacion-...md
+└── 21-12-titulo-xii.md
 ```
 
 Un Libro son sus Títulos, y cada Título va entero en un archivo con sus Letras, Capítulos y

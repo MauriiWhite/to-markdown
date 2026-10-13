@@ -194,6 +194,23 @@ def heading(section: dict) -> str:
     return f"# {section['title']} — Parte {section['part']} de {section['parts']}"
 
 
+TITLE_NUMBER = re.compile(r"T[íi]tulo\s+([IVXLC]+)\b")
+
+
+def short_name(title: str) -> str:
+    """La parte legible del nombre de archivo: `titulo-iii`, no el título entero.
+
+    El nombre completo del Título llegaba a 87 caracteres con el sufijo de parte, y
+    Microsoft Copilot Studio rechaza nombres largos al subirlos como conocimiento. El
+    número romano basta para identificarlo; el título completo va dentro del archivo, en su
+    front matter y su encabezado, y en el `index.md`. Si se agrupa por otro nivel que no
+    trae número de Título, se usa el comienzo del título, recortado.
+    """
+    if match := TITLE_NUMBER.match(title):
+        return f"titulo-{match.group(1).lower()}"
+    return slugify(title)[:24].strip("-")
+
+
 def part_name(section: dict, part: int) -> str:
     """Nombre de archivo de una parte del Título de `section`, sea la propia u otra.
 
@@ -206,7 +223,7 @@ def part_name(section: dict, part: int) -> str:
     # Ceros a la izquierda para que `ls` y cualquier explorador los ordenen como se leen.
     # ponytail: dos dígitos alcanzan (el Libro más largo tiene 45 archivos); el test de
     # orden avisa si un Libro pasa de 99 y hay que subir el ancho.
-    return f"{sequence:02d}-{section['index']:02d}-{slugify(section['title'])}{suffix}.md"
+    return f"{sequence:02d}-{section['index']:02d}-{short_name(section['title'])}{suffix}.md"
 
 
 def navigation(section: dict) -> list[str]:

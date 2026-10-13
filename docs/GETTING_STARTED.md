@@ -130,15 +130,16 @@ número.**
 
 ```
 output/
-├── README.md          ← qué es esto, generado
-├── book-i/
+├── index.md           ← qué es esto, generado: los cinco Libros y sus materias
+├── libro-i/
 │   ├── index.md       ← empezar aquí: Títulos, Capítulos y materias del Libro
-│   ├── 1-titulo-i-afiliacion-e-incorporacion-....md
-│   └── … 12 archivos
-├── book-ii/  … 15 archivos
-├── book-iii/ … 19 archivos
-├── book-iv/  … 14 archivos
-└── book-v/   … 20 archivos
+│   ├── 01-01-titulo-i.md
+│   ├── 03-03-titulo-iii-parte-1.md   ← un Título de más de 15.000 palabras va en partes
+│   └── … 21 archivos
+├── libro-ii/  … 17 archivos
+├── libro-iii/ … 46 archivos
+├── libro-iv/  … 39 archivos
+└── libro-v/   … 22 archivos
 ```
 
 Un archivo por **Título**, que es la unidad con la que la norma se cita y se modifica

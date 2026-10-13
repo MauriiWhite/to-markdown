@@ -128,7 +128,7 @@ incluido su `index.md`. El `output/index.md` general se sube como archivo indivi
 
 > Para ubicar un Título o Capítulo, consulta primero el `index.md` del grupo: dice en qué
 > archivo está cada Capítulo. Un Título extenso está dividido en partes consecutivas
-> (`…-parte-1.md`, `…-parte-2.md`); si la norma continúa, revisa la parte siguiente.
+> (`03-03-titulo-iii-parte-1.md`, `04-03-titulo-iii-parte-2.md`); si la norma continúa, revisa la parte siguiente.
 
 Las descripciones de la tabla se resumieron a mano a partir de los `index.md`. Si la SP
 agrega o renombra Títulos, hay que revisarlas.

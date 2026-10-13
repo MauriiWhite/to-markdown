@@ -6,7 +6,7 @@ Compendio de Normas del Sistema de Pensiones · Superintendencia de Pensiones de
 
 - Fuente: https://www.spensiones.cl/portal/compendio/596/w3-propertyvalue-2539.html
 - Extraído del portal: 2026-10-13T16:52:29+00:00
-- Contenido: **20 Títulos** en 22 archivos · 156 normas · 799 números normativos · 191 notas de actualización · 272 figuras · 159.733 palabras
+- Contenido: **20 Títulos** en 22 archivos · 156 normas · 799 números normativos · 191 notas de actualización · 272 figuras · 159.705 palabras
 
 Cada Título es un archivo, o varias partes si supera 15.000 palabras: se corta entre Capítulos, nunca dentro de uno, así que un Capítulo que solo ya supera ese tope queda entero en su parte. Para citar una norma se usa su Capítulo y su número: "Título III, Capítulo XXIV, N° 3".
 
@@ -16,14 +16,14 @@ Cada Título es un archivo, o varias partes si supera 15.000 palabras: se corta 
 | --- | --- | ---: | ---: | ---: | --- |
 | I | Formación de una Administradora de Fondos de Pensiones | 1 | 4 | 5.559 | NCG N° 354 (08-01-2026) |
 | II | Constitución y Autorización de Existencia de Sociedades Anónimas cuyo giro sea la Administración de Recursos Previsionales | 1 | 6 | 2.722 | NCG N° 320 (22-05-2024) |
-| III | Servicios y Publicidad de las Administradoras de Fondos de Pensiones | 2 | 27 | 27.411 | NCG N° 356 (22-01-2026) |
+| III | Servicios y Publicidad de las Administradoras de Fondos de Pensiones | 2 | 27 | 27.393 | NCG N° 356 (22-01-2026) |
 | IV | Centros de Atención Previsional Integral, CAPRI | 1 | 10 | 4.953 | NCG N° 236 (03-01-2019) |
 | V | Contratación de Servicios por las Administradoras de Fondos de Pensiones y el Instituto de Previsión Social | 1 | 10 | 6.591 | NCG N° 356 (22-01-2026) |
 | VI | Licitación del Servicio de Administración de Cuentas de Capitalización Individual | 1 | 6 | 2.950 | NCG N° 155 (01-10-2015) |
 | VII | Contratación del Seguro de Invalidez y Sobrevivencia | 1 | 20 | 14.011 | NCG N° 269 (19-06-2020) |
 | VIII | Asesoría Previsional | 1 | 22 | 16.885 | NCG N° 343 (05-08-2025) |
 | IX | Archivo de Promotores, Agentes de Ventas y Personal de Atención de Público de las Administradoras | 1 | 5 | 5.174 | NCG N° 356 (22-01-2026) |
-| X | Estadística de Afiliados y Cotizantes | 2 | 11 | 28.337 | — |
+| X | Estadística de Afiliados y Cotizantes | 2 | 11 | 28.327 | — |
 | XI | Base de Datos de Afiliados, Cotizantes, Beneficiarios, Pensionados y Fallecidos | 1 | 3 | 1.020 | NCG N° 275 (23-09-2020) |
 | XII | Recepción y envío de archivos por Transmisión Electrónica | 1 | 2 | 253 | NCG N° 143 (02-06-2015) |
 | XIII | Microcopia o Micrograbación y destrucción de Documentos | 1 | 7 | 7.043 | — |
@@ -39,28 +39,28 @@ Cada Título es un archivo, o varias partes si supera 15.000 palabras: se corta 
 
 | Archivo | Título | Parte | Normas | Palabras |
 | --- | --- | :---: | ---: | ---: |
-| `01-01-titulo-i-formacion-de-una-administradora-de-fondos-de-pensiones.md` | Título I Formación de una Administradora de Fondos de Pensiones | — | 4 | 5.559 |
-| `02-02-titulo-ii-constitucion-y-autorizacion-de-existencia-de-sociedades-anon.md` | Título II Constitución y Autorización de Existencia de Sociedades Anónimas cuyo giro sea la Administración de Recursos Previsionales | — | 6 | 2.722 |
-| `03-03-titulo-iii-servicios-y-publicidad-de-las-administradoras-de-fondos-de--parte-1.md` | Título III Servicios y Publicidad de las Administradoras de Fondos de Pensiones | 1/2 | 12 | 15.770 |
-| `04-03-titulo-iii-servicios-y-publicidad-de-las-administradoras-de-fondos-de--parte-2.md` | Título III Servicios y Publicidad de las Administradoras de Fondos de Pensiones | 2/2 | 15 | 11.641 |
-| `05-04-titulo-iv-centros-de-atencion-previsional-integral-capri.md` | Título IV Centros de Atención Previsional Integral, CAPRI | — | 10 | 4.953 |
-| `06-05-titulo-v-contratacion-de-servicios-por-las-administradoras-de-fondos-d.md` | Título V Contratación de Servicios por las Administradoras de Fondos de Pensiones y el Instituto de Previsión Social | — | 10 | 6.591 |
-| `07-06-titulo-vi-licitacion-del-servicio-de-administracion-de-cuentas-de-capi.md` | Título VI Licitación del Servicio de Administración de Cuentas de Capitalización Individual | — | 6 | 2.950 |
-| `08-07-titulo-vii-contratacion-del-seguro-de-invalidez-y-sobrevivencia.md` | Título VII Contratación del Seguro de Invalidez y Sobrevivencia | — | 20 | 14.011 |
-| `09-08-titulo-viii-asesoria-previsional.md` | Título VIII Asesoría Previsional | — | 22 | 16.885 |
-| `10-09-titulo-ix-archivo-de-promotores-agentes-de-ventas-y-personal-de-atenci.md` | Título IX Archivo de Promotores, Agentes de Ventas y Personal de Atención de Público de las Administradoras | — | 5 | 5.174 |
-| `11-10-titulo-x-estadistica-de-afiliados-y-cotizantes-parte-1.md` | Título X Estadística de Afiliados y Cotizantes | 1/2 | 8 | 14.233 |
-| `12-10-titulo-x-estadistica-de-afiliados-y-cotizantes-parte-2.md` | Título X Estadística de Afiliados y Cotizantes | 2/2 | 3 | 14.104 |
-| `13-11-titulo-xi-base-de-datos-de-afiliados-cotizantes-beneficiarios-pensiona.md` | Título XI Base de Datos de Afiliados, Cotizantes, Beneficiarios, Pensionados y Fallecidos | — | 3 | 1.020 |
-| `14-12-titulo-xii-recepcion-y-envio-de-archivos-por-transmision-electronica.md` | Título XII Recepción y envío de archivos por Transmisión Electrónica | — | 2 | 253 |
-| `15-13-titulo-xiii-microcopia-o-micrograbacion-y-destruccion-de-documentos.md` | Título XIII Microcopia o Micrograbación y destrucción de Documentos | — | 7 | 7.043 |
-| `16-14-titulo-xiv-instrucciones-sobre-administracion-de-riesgo-en-las-adminis.md` | Título XIV Instrucciones sobre Administración de Riesgo en las Administradoras de Fondos de Pensiones | — | 5 | 12.475 |
-| `17-15-titulo-xv-informacion-de-las-sociedades-del-grupo-empresarial-de-la-ad.md` | Título XV Información de las Sociedades del Grupo Empresarial de la Administradora | — | 4 | 1.288 |
-| `18-16-titulo-xvi-designacion-del-representante-de-las-administradoras-de-fon.md` | Título XVI Designación del representante de las Administradoras de Fondos de Pensiones en la Comisión de Usuarios del Sistema de Pensiones | — | 1 | 369 |
-| `19-17-titulo-xvii-instrucciones-sobre-administracion-de-riesgo-en-el-institu.md` | Título XVII Instrucciones sobre Administración de Riesgo en el Instituto de Previsión Social | — | 4 | 7.206 |
-| `20-18-titulo-xviii-sistema-de-gestion-de-seguridad-y-ciberseguridad-de-las-a.md` | Título XVIII Sistema de Gestión de Seguridad y Ciberseguridad de las Administradoras de Fondos de Pensiones | — | 3 | 10.280 |
-| `21-19-titulo-xix-sitio-web-del-administrador-del-fondo-autonomo-de-proteccio.md` | Título XIX. Sitio Web del Administrador del Fondo Autónomo de Protección Previsional | — | 1 | 1.036 |
-| `22-20-titulo-xx-de-la-licitacion-de-carteras-de-inversion-del-fondo-autonomo.md` | Título XX De la licitación de carteras de inversión del Fondo Autónomo de Protección Previsional | — | 5 | 4.170 |
+| `01-01-titulo-i.md` | Título I Formación de una Administradora de Fondos de Pensiones | — | 4 | 5.559 |
+| `02-02-titulo-ii.md` | Título II Constitución y Autorización de Existencia de Sociedades Anónimas cuyo giro sea la Administración de Recursos Previsionales | — | 6 | 2.722 |
+| `03-03-titulo-iii-parte-1.md` | Título III Servicios y Publicidad de las Administradoras de Fondos de Pensiones | 1/2 | 12 | 15.761 |
+| `04-03-titulo-iii-parte-2.md` | Título III Servicios y Publicidad de las Administradoras de Fondos de Pensiones | 2/2 | 15 | 11.632 |
+| `05-04-titulo-iv.md` | Título IV Centros de Atención Previsional Integral, CAPRI | — | 10 | 4.953 |
+| `06-05-titulo-v.md` | Título V Contratación de Servicios por las Administradoras de Fondos de Pensiones y el Instituto de Previsión Social | — | 10 | 6.591 |
+| `07-06-titulo-vi.md` | Título VI Licitación del Servicio de Administración de Cuentas de Capitalización Individual | — | 6 | 2.950 |
+| `08-07-titulo-vii.md` | Título VII Contratación del Seguro de Invalidez y Sobrevivencia | — | 20 | 14.011 |
+| `09-08-titulo-viii.md` | Título VIII Asesoría Previsional | — | 22 | 16.885 |
+| `10-09-titulo-ix.md` | Título IX Archivo de Promotores, Agentes de Ventas y Personal de Atención de Público de las Administradoras | — | 5 | 5.174 |
+| `11-10-titulo-x-parte-1.md` | Título X Estadística de Afiliados y Cotizantes | 1/2 | 8 | 14.228 |
+| `12-10-titulo-x-parte-2.md` | Título X Estadística de Afiliados y Cotizantes | 2/2 | 3 | 14.099 |
+| `13-11-titulo-xi.md` | Título XI Base de Datos de Afiliados, Cotizantes, Beneficiarios, Pensionados y Fallecidos | — | 3 | 1.020 |
+| `14-12-titulo-xii.md` | Título XII Recepción y envío de archivos por Transmisión Electrónica | — | 2 | 253 |
+| `15-13-titulo-xiii.md` | Título XIII Microcopia o Micrograbación y destrucción de Documentos | — | 7 | 7.043 |
+| `16-14-titulo-xiv.md` | Título XIV Instrucciones sobre Administración de Riesgo en las Administradoras de Fondos de Pensiones | — | 5 | 12.475 |
+| `17-15-titulo-xv.md` | Título XV Información de las Sociedades del Grupo Empresarial de la Administradora | — | 4 | 1.288 |
+| `18-16-titulo-xvi.md` | Título XVI Designación del representante de las Administradoras de Fondos de Pensiones en la Comisión de Usuarios del Sistema de Pensiones | — | 1 | 369 |
+| `19-17-titulo-xvii.md` | Título XVII Instrucciones sobre Administración de Riesgo en el Instituto de Previsión Social | — | 4 | 7.206 |
+| `20-18-titulo-xviii.md` | Título XVIII Sistema de Gestión de Seguridad y Ciberseguridad de las Administradoras de Fondos de Pensiones | — | 3 | 10.280 |
+| `21-19-titulo-xix.md` | Título XIX. Sitio Web del Administrador del Fondo Autónomo de Protección Previsional | — | 1 | 1.036 |
+| `22-20-titulo-xx.md` | Título XX De la licitación de carteras de inversión del Fondo Autónomo de Protección Previsional | — | 5 | 4.170 |
 
 ## Qué contiene cada Título
 
@@ -74,7 +74,7 @@ Cómo empieza (texto de la SP, Libro V, Título I Formación de una Administrado
 
 > El proyecto para formar una Administradora de Fondos de Pensiones deberá ser presentado mediante un dispositivo digital o el envío de archivos electrónicos a la Superintendencia de Pensiones y contener al menos los siguientes documentos: a) Presentación del Proyecto y antecedentes personales de los organizadores y documentos que acrediten la personería de aquellos que representan a personas jurídicas. b) Estudio…
 
-Archivo: `01-01-titulo-i-formacion-de-una-administradora-de-fondos-de-pensiones.md` · 4 normas · 5.559 palabras
+Archivo: `01-01-titulo-i.md` · 4 normas · 5.559 palabras
 
 - Capítulo I. Procedimiento y requisitos para la formación de una Administradora de Fondos de Pensiones — 12 números · Administradora de Fondos de Pensiones
 - Capítulo II. De la solicitud de autorización de existencia y aprobación de estatutos — 6 números · Administradora de Fondos de Pensiones
@@ -91,7 +91,7 @@ Cómo empieza (texto de la SP, Libro V, Título II Constitución y Autorización
 
 > El presente Título establece normas para la constitución de sociedades anónimas filiales que constituyan en el país las Administradoras, cuyo objeto exclusivo sea la administración de carteras de recursos previsionales, como asimismo, para aquellas sociedades anónimas con idéntico giro y objeto exclusivo, ajenas a Administradoras de Fondos de Pensiones. 2.
 
-Archivo: `02-02-titulo-ii-constitucion-y-autorizacion-de-existencia-de-sociedades-anon.md` · 6 normas · 2.722 palabras
+Archivo: `02-02-titulo-ii.md` · 6 normas · 2.722 palabras
 
 - Capítulo I. Consideraciones generales — 11 números · Administradora de Fondos de Pensiones, Sociedad Anónima
 - Capítulo II. Procedimiento de constitución — 6 números · Administradora de Fondos de Pensiones, Sociedad Anónima
@@ -102,7 +102,7 @@ Archivo: `02-02-titulo-ii-constitucion-y-autorizacion-de-existencia-de-sociedade
 
 ### 3. Título III Servicios y Publicidad de las Administradoras de Fondos de Pensiones
 
-- **Tamaño:** 27 normas · 222 números normativos · 27.411 palabras · 3 figuras · 2 archivos
+- **Tamaño:** 27 normas · 222 números normativos · 27.393 palabras · 3 figuras · 2 archivos
 - **Modificaciones:** 10 NCG entre 2011 y 2026; la más reciente, NCG N° 356 del 22-01-2026
 - **Materias:** Publicidad, Agencia, Centro de Servicio, Internet, Administradora de Fondos de Pensiones, Fondos de Pensiones, Traspaso
 
@@ -110,7 +110,7 @@ Cómo empieza (texto de la SP, Libro V Aspectos Administrativos y Operacionales 
 
 > En esta norma se definen las directrices que regulan las características del servicio que las Administradoras deben entregar a los afiliados y usuarios, considerando diversos aspectos tendientes a optimizar la entrega de los servicios que éstos requieren, especialmente los relacionados con información, comunicaciones, asesoría y educación previsional, lo que debe ser siempre desarrollado en un marco de colaboración hacia los…
 
-Parte 1 de 2 · Archivo: `03-03-titulo-iii-servicios-y-publicidad-de-las-administradoras-de-fondos-de--parte-1.md` · 12 normas · 15.770 palabras
+Parte 1 de 2 · Archivo: `03-03-titulo-iii-parte-1.md` · 12 normas · 15.761 palabras
 
 - A. Proceso de Servicio de las Administradoras de Fondos de Pensiones
   - Capítulo I. Normas Generales — 8 números · Agencia, Centro de Servicio
@@ -125,7 +125,7 @@ Parte 1 de 2 · Archivo: `03-03-titulo-iii-servicios-y-publicidad-de-las-adminis
   - Capítulo V. Atención por Videollamadas — 1 número
   - Capítulo VI. Solución de divergencias — 3 números · Internet, Traspaso
 
-Parte 2 de 2 · Archivo: `04-03-titulo-iii-servicios-y-publicidad-de-las-administradoras-de-fondos-de--parte-2.md` · 15 normas · 11.641 palabras
+Parte 2 de 2 · Archivo: `04-03-titulo-iii-parte-2.md` · 15 normas · 11.632 palabras
 
 - C. Publicidad
   - Capítulo I. Normas generales — 7 números · Publicidad
@@ -156,7 +156,7 @@ Cómo empieza (texto de la SP, Libro V, Título IV Centros de Atención Previsio
 
 > El artículo 60 de la Ley N° 20.255 crea una red de Centros de Atención Previsional Integral, en adelante CAPRI, pertenecientes al Instituto de Previsión Social, IPS. Esta Superintendencia, en uso de las facultades establecidas en el inciso final del artículo 61 de la Ley N° 20.255, mediante el presente Título, regula el ejercicio de las funciones y atribuciones de…
 
-Archivo: `05-04-titulo-iv-centros-de-atencion-previsional-integral-capri.md` · 10 normas · 4.953 palabras
+Archivo: `05-04-titulo-iv.md` · 10 normas · 4.953 palabras
 
 - Capítulo I. Introducción — 1 número · Centro Atención Previsional Integral
 - Capítulo II. Servicios que prestan los CAPRI — 4 números · Centro Atención Previsional Integral
@@ -180,7 +180,7 @@ Cómo empieza (texto de la SP, Libro V, Título V, Letra A. Contratación de Ser
 
 > De acuerdo, con lo establecido en el artículo 23 del D.L. N° 3.500, de 1980, los contratos que celebren las Administradoras de Fondos de Pensiones para la prestación de servicios relacionados con el giro de aquella deberán ceñirse a las normas que esta Superintendencia dicte, conforme a lo dispuesto y las facultades que se le otorgan para tales efectos en…
 
-Archivo: `06-05-titulo-v-contratacion-de-servicios-por-las-administradoras-de-fondos-d.md` · 10 normas · 6.591 palabras
+Archivo: `06-05-titulo-v.md` · 10 normas · 6.591 palabras
 
 - A. Contratación de Servicios por las Administradoras de Fondos de Pensiones
   - Capítulo I. Introducción — 6 números · Administradora de Fondos de Pensiones
@@ -205,7 +205,7 @@ Cómo empieza (texto de la SP, Libro V, Título VI Licitación del Servicio de A
 
 > El Título XV del D.L. N° 3.500, de 1980, establece que la Superintendencia de Pensiones efectuará cada veinticuatro meses, por sí o a través de la contratación de servicios de terceros, licitaciones públicas para adjudicar el servicio de administración de las cuentas de capitalización individual de las personas que se afilien al sistema por primera vez.
 
-Archivo: `07-06-titulo-vi-licitacion-del-servicio-de-administracion-de-cuentas-de-capi.md` · 6 normas · 2.950 palabras
+Archivo: `07-06-titulo-vi.md` · 6 normas · 2.950 palabras
 
 - Capítulo I. Introducción — 1 número · Cuenta de capitalización individual, Licitación
 - Capítulo II. De las Bases de Licitación — 4 números · Cuenta de capitalización individual, Licitación
@@ -224,7 +224,7 @@ Cómo empieza (texto de la SP, Libro V, Título VII, Letra A Normas para la Cont
 
 > De acuerdo con lo dispuesto en los artículos 59 y 59 bis, en relación con el artículo 54 del D.L. 3.500, de 1980, las Administradoras de Fondos de Pensiones son responsables del pago de los beneficios que se indican a continuación, y para garantizar su financiamiento, deben contratar en conjunto mediante una licitación pública, un seguro con una o más…
 
-Archivo: `08-07-titulo-vii-contratacion-del-seguro-de-invalidez-y-sobrevivencia.md` · 20 normas · 14.011 palabras
+Archivo: `08-07-titulo-vii.md` · 20 normas · 14.011 palabras
 
 - A. Normas para la Contratación del Seguro de Invalidez y Sobrevivencia
   - Capítulo I. Aspectos Generales de los Contratos de Seguro — 4 números · Seguro de Invalidez y Sobrevivencia
@@ -254,7 +254,7 @@ Cómo empieza (texto de la SP, Libro V, Título VIII, Letra A De las Asesorías 
 
 > La Ley N° 21.314 publicada en el Diario Oficial el 13 de abril de 2021 establece nuevas exigencias de transparencia y refuerza las responsabilidades de los agentes de mercado, reemplaza el Título XVII "De la Asesoría Previsional", del D.L. N° 3.500, de 1980 y regula otras materias que indica.
 
-Archivo: `09-08-titulo-viii-asesoria-previsional.md` · 22 normas · 16.885 palabras
+Archivo: `09-08-titulo-viii.md` · 22 normas · 16.885 palabras
 
 - A. De las Asesorías Previsionales
   - Capítulo I. Introducción — 1 número · Asesoría Previsional
@@ -285,7 +285,7 @@ Cómo empieza (texto de la SP, Libro V, Título IX Archivo de Promotores, Agente
 
 > A contar del 1 de noviembre de 1998, el Registro de Promotores y Agentes de Venta que llevaba esta Superintendencia en forma centralizada, deberá ser mantenido y administrado por cada A.F.P. en forma individual. 2.
 
-Archivo: `10-09-titulo-ix-archivo-de-promotores-agentes-de-ventas-y-personal-de-atenci.md` · 5 normas · 5.174 palabras
+Archivo: `10-09-titulo-ix.md` · 5 normas · 5.174 palabras
 
 - Capítulo I. Archivo de Promotores, Agentes de Ventas y Personal de Atención de Público de las Administradoras — 36 números · Agente de Venta, Promotor
 - Capítulo II. Relaciones entre las AFP y los Promotores, Agentes de Ventas o Personas que intervengan en la Incorporacion de Afiliados a las Administradoras — 2 números · Agente de Venta, Promotor
@@ -296,7 +296,7 @@ Archivo: `10-09-titulo-ix-archivo-de-promotores-agentes-de-ventas-y-personal-de-
 
 ### 10. Título X Estadística de Afiliados y Cotizantes
 
-- **Tamaño:** 11 normas · 28 números normativos · 28.337 palabras · 239 figuras · 2 archivos
+- **Tamaño:** 11 normas · 28 números normativos · 28.327 palabras · 239 figuras · 2 archivos
 - **Modificaciones:** sin notas de actualización con fecha
 - **Materias:** Informe estadístico, Afiliado
 
@@ -304,7 +304,7 @@ Cómo empieza (texto de la SP, Libro V, Título X, Capítulo I Normas generales,
 
 > Las Administradoras deberán transmitir mensualmente a esta Superintendencia el informe estadístico mensual de afiliados y cotizantes que se detalla en el número 2 del Capítulo II siguiente y cuyos formatos se adjuntan en el Anexo N° 1, ajustándose estrictamente a las instrucciones que se imparten. b) La información deberá enviarse de acuerdo a las especificaciones técnicas que se entregan en…
 
-Parte 1 de 2 · Archivo: `11-10-titulo-x-estadistica-de-afiliados-y-cotizantes-parte-1.md` · 8 normas · 14.233 palabras
+Parte 1 de 2 · Archivo: `11-10-titulo-x-parte-1.md` · 8 normas · 14.228 palabras
 
 - Capítulo I. Normas generales
   - 1. Informe Estadístico Mensual — 1 número · Informe estadístico
@@ -318,7 +318,7 @@ Parte 1 de 2 · Archivo: `11-10-titulo-x-estadistica-de-afiliados-y-cotizantes-p
 - Anexos
   - Anexo N° 1 Estadística Mensual de Afiliados y Cotizantes — 1 número · Informe estadístico
 
-Parte 2 de 2 · Archivo: `12-10-titulo-x-estadistica-de-afiliados-y-cotizantes-parte-2.md` · 3 normas · 14.104 palabras
+Parte 2 de 2 · Archivo: `12-10-titulo-x-parte-2.md` · 3 normas · 14.099 palabras
 
 - Anexos
   - Anexo N° 2 Estadística Trimestral de Afiliados y Cotizantes — 1 número · Informe estadístico
@@ -335,7 +335,7 @@ Cómo empieza (texto de la SP, Libro V, Título XI Base de Datos de Afiliados, C
 
 > El presente Título define el contenido de la Base de Datos de Afiliados, Cotizantes, Beneficiarios, Pensionados y Fallecidos del Sistema de Pensiones creado por el D.L. N° 3.500 de 1980, que mantiene esta Superintendencia para fines de estudios técnicos, fiscalización y para dar respuesta oportuna a los requerimientos que plantean los afiliados.
 
-Archivo: `13-11-titulo-xi-base-de-datos-de-afiliados-cotizantes-beneficiarios-pensiona.md` · 3 normas · 1.020 palabras
+Archivo: `13-11-titulo-xi.md` · 3 normas · 1.020 palabras
 
 - Capítulo I. Disposiciones generales — 1 número · Afiliado, Base de Datos
 - Capítulo II. Control de saldos — 1 número · Afiliado, Base de Datos
@@ -351,7 +351,7 @@ Cómo empieza (texto de la SP, Libro V, Título XII, A. Normas para la Recepció
 
 > Las instrucciones sobre recepción y envío de archivos vía transmisión de datos se encuentra disponible en el Sitio Web de la Superintendencia de Pensiones, en la siguiente referencia: http://www.spensiones.cl/apps/tea/indexTEA.php.
 
-Archivo: `14-12-titulo-xii-recepcion-y-envio-de-archivos-por-transmision-electronica.md` · 2 normas · 253 palabras
+Archivo: `14-12-titulo-xii.md` · 2 normas · 253 palabras
 
 - A. Normas para la Recepción y envío de Archivos Vía Transmisión de Datos — 1 número · Transmisión Electrónica
 - B. Definición de Informes y Archivos a Transferir por Transmisión Electrónica — 1 número · Transmisión Electrónica
@@ -366,7 +366,7 @@ Cómo empieza (texto de la SP, Libro V, Título XIII Microcopia o Micrograbació
 
 > La Ley N° 18.845 establece Sistemas de Microcopia o Micrograbación de Documentos, fija el procedimiento a que debe sujetarse el proceso de microcopia o micrograbación de documentos pertenecientes a la administración pública centralizada y descentralizada, de registros públicos y de archivos privados.
 
-Archivo: `15-13-titulo-xiii-microcopia-o-micrograbacion-y-destruccion-de-documentos.md` · 7 normas · 7.043 palabras
+Archivo: `15-13-titulo-xiii.md` · 7 normas · 7.043 palabras
 
 - Capítulo I. Normas generales — 6 números · Microcopia
 - Capítulo II. Definiciones — 10 números · Microcopia
@@ -386,7 +386,7 @@ Cómo empieza (texto de la SP, Libro V, Título XIV Instrucciones sobre Administ
 
 > En el presente Título, la Superintendencia de Pensiones establece los principios y lineamientos generales que en términos de buenas prácticas se espera que las Administradoras de Fondos de Pensiones, en adelante "las entidades fiscalizadas", adopten en la gestión de sus riesgos, así como también los requisitos mínimos que deberán cumplir dichas entidades en esta materia, referidos a: la elaboración de…
 
-Archivo: `16-14-titulo-xiv-instrucciones-sobre-administracion-de-riesgo-en-las-adminis.md` · 5 normas · 12.475 palabras
+Archivo: `16-14-titulo-xiv.md` · 5 normas · 12.475 palabras
 
 - Capítulo I. Introducción — 1 número · Administración de Riesgo
 - Capítulo II. Mecanismos de Gestión de Riesgos — 1 número · Administración de Riesgo
@@ -404,7 +404,7 @@ Cómo empieza (texto de la SP, Libro V, Título XV, Información de las Sociedad
 
 > En virtud de la facultad establecida en el inciso final de la letra h) del artículo 3° del D.F.L. N° 101, del Ministerio del Trabajo y Previsión Social, incorporada por el artículo 10 de la Ley N° 20.789, que crea el Consejo de Estabilidad Financiera, y con el objeto de evaluar los riesgos que puedan afectar la situación financiera de…
 
-Archivo: `17-15-titulo-xv-informacion-de-las-sociedades-del-grupo-empresarial-de-la-ad.md` · 4 normas · 1.288 palabras
+Archivo: `17-15-titulo-xv.md` · 4 normas · 1.288 palabras
 
 - Capítulo I. Introducción — 1 número · Administración de Riesgo
 - Capítulo II. Evaluación de Riesgos Financieros de las Administradoras — 2 números · Administración de Riesgo
@@ -422,7 +422,7 @@ Cómo empieza (texto de la SP, Libro V Aspectos Administrativos y Operacionales 
 
 > El artículo 43 de la Ley N° 20.255, que crea la Comisión de Usuarios del Sistema de Pensiones, señala que ésta estará integrada por un representante de los trabajadores, uno de los pensionados, uno de las instituciones públicas, uno de las entidades privadas del Sistema de Pensiones y un académico universitario, que la presidirá.
 
-Archivo: `18-16-titulo-xvi-designacion-del-representante-de-las-administradoras-de-fon.md` · 1 normas · 369 palabras
+Archivo: `18-16-titulo-xvi.md` · 1 normas · 369 palabras
 
 - (sin subdivisiones)
 
@@ -435,7 +435,7 @@ Cómo empieza (texto de la SP, Libro V, Título XVII Instrucciones sobre Adminis
 
 > En el presente Título, la Superintendencia de Pensiones establece los principios y lineamientos generales que en términos de buenas prácticas se espera que el Instituto de Previsión Social, en adelante "el IPS", adopte en la gestión de sus riesgos, sin perjuicio de los lineamientos emanados del Consejo de Auditoría Interna General de Gobierno (CAIGG).
 
-Archivo: `19-17-titulo-xvii-instrucciones-sobre-administracion-de-riesgo-en-el-institu.md` · 4 normas · 7.206 palabras
+Archivo: `19-17-titulo-xvii.md` · 4 normas · 7.206 palabras
 
 - Capítulo I. Introducción — 1 número
 - Capítulo II. Componentes del Sistema de Gestión de Riesgos — 3 números
@@ -451,7 +451,7 @@ Cómo empieza (texto de la SP, Libro V, Título XVIII Sistema de Gestión de Seg
 
 > En el presente Título, se establecen disposiciones basadas en marcos de buenas prácticas, que las Administradoras de Fondos de Pensiones, en adelante "las Administradoras", deben considerar para contar con un Sistema de Gestión de Seguridad y Ciberseguridad, gestionado y resiliente que permita optimizar los procesos y asegurar la confidencialidad, integridad y disponibilidad de la información, protegiendo los datos de carácter…
 
-Archivo: `20-18-titulo-xviii-sistema-de-gestion-de-seguridad-y-ciberseguridad-de-las-a.md` · 3 normas · 10.280 palabras
+Archivo: `20-18-titulo-xviii.md` · 3 normas · 10.280 palabras
 
 - Capítulo I. Aspectos Generales — 15 números
 - Capitulo II. Modelo de Gestión de Seguridad de la Información y Ciberseguridad — 22 números
@@ -466,7 +466,7 @@ Cómo empieza (texto de la SP, Libro V Aspectos Administrativos y Operacionales 
 
 > El artículo 48, inciso tercero, de la Ley N° 21.735 que crea un nuevo sistema mixto de pensiones y un seguro social en el pilar contributivo, mejora la pensión garantizada universal y establece beneficios y modificaciones regulatorias que indica, dispone que el administrador del Fondo deberá mantener en su sitio electrónico, a lo menos, la información que determine la Superintendencia…
 
-Archivo: `21-19-titulo-xix-sitio-web-del-administrador-del-fondo-autonomo-de-proteccio.md` · 1 normas · 1.036 palabras
+Archivo: `21-19-titulo-xix.md` · 1 normas · 1.036 palabras
 
 - (sin subdivisiones)
 
@@ -479,7 +479,7 @@ Cómo empieza (texto de la SP, Libro V, Título XX De la licitación de carteras
 
 > Conforme dispone el artículo 25, inciso tercero, de la ley N° 21.735, corresponderá al Administrador del Fondo Autónomo de Protección Previsional, en adelante AFAPP, administrar la gestión e inversión de los recursos del Fondo y velar por la maximización de la rentabilidad de largo plazo de dicho Fondo, sujeta a niveles adecuados de riesgo.
 
-Archivo: `22-20-titulo-xx-de-la-licitacion-de-carteras-de-inversion-del-fondo-autonomo.md` · 5 normas · 4.170 palabras
+Archivo: `22-20-titulo-xx.md` · 5 normas · 4.170 palabras
 
 - Capítulo I. Aspectos Generales — 1 número
 - Capítulo II. De la licitación del servicio de administración de carteras de inversión del FAPP — 12 números

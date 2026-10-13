@@ -16,7 +16,7 @@ data/
 ├── web/<libro>/            ← extraído del portal. Lo que produce el pipeline.
 │   ├── cache/<pvid>.html      el subárbol de ESE Libro y nada más
 │   ├── images/<sha256>.<ext>  figuras descargadas, nombradas por contenido
-│   ├── markdown/NNN-<slug>.md un archivo por Título, en orden de lectura
+│   ├── markdown/NN-NN-titulo-<romano>[-parte-N].md  un archivo por Título o parte
 │   ├── changelog/<stamp>.md   informe de cambios por corrida
 │   ├── state/
 │   │   ├── documents.json     corpus de la corrida anterior (línea base del diff)
@@ -30,7 +30,7 @@ data/
 │   ├── figures.jsonl          una línea por figura, con su procedencia
 │   └── changes.json           el último informe de cambios
 └── pdf/<libro>/            ← el PDF oficial, alineado contra la web
-    ├── markdown/NNN-<slug>.md mismos nombres que web/, para `diff` directo
+    ├── markdown/NN-NN-titulo-<romano>[-parte-N].md  mismos nombres que web/
     ├── images/<sha256>.png    figuras embebidas en el PDF
     ├── text.txt               salida cruda de pdftotext (caché)
     ├── documents.json         el PDF segmentado por los mismos pvid
@@ -44,10 +44,10 @@ assets/books/               ← entrada: el Compendio oficial en PDF
 └── http.json                  ETag por Libro, para no re-bajar 130 MB por corrida
 
 output/                     ← LO ÚNICO QUE SE ENTREGA
-├── README.md
-└── <libro>/
+├── index.md
+└── libro-<romano>/
     ├── index.md
-    └── NNN-<slug>.md
+    └── NN-NN-titulo-<romano>[-parte-N].md
 ```
 
 `data/` se parte primero por **fuente** y después por Libro. `web/` y `pdf/` son dos
@@ -192,13 +192,19 @@ normas es un dato, no una repetición.
   "path": "Libro I, Título I, Letra A Afiliación e Incorporación a una Administradora",
   "level": "title",
   "index": 1,
-  "filename": "1-titulo-i-afiliacion-e-incorporacion-a-una-administradora….md",
+  "sequence": 1,
+  "part": 1,
+  "parts": 1,
+  "filename": "01-01-titulo-i.md",
   "documents": ["4073", "4074", "4075", "4082", …]
 }
 ```
 
-`index` sale del árbol **completo**, no del subconjunto que se exporta: es lo que hace que
-el lado web y el lado PDF produzcan los mismos nombres de archivo.
+`index` (el Título), `sequence` (el correlativo del archivo en el Libro) y el corte en
+partes salen del árbol **completo** y de las palabras del lado web, no del subconjunto que
+se exporta: es lo que hace que el lado web y el lado PDF produzcan los mismos nombres de
+archivo. El nombre es `<sequence>-<index>-titulo-<romano>[-parte-<part>].md`, corto a
+propósito: Microsoft Copilot Studio rechaza nombres largos al subirlos como conocimiento.
 
 ## `http.json` — la señal de cambio más barata
 

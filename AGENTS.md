@@ -178,11 +178,14 @@ sobre el árbol completo, igual que el ordinal, para que el lado PDF parta en el
 lugar. Cada parte repite el `##` de la Letra en que arranca, declara "Parte n de N" y
 enlaza la anterior y la siguiente; el `index.md` del Libro dice qué Capítulos trae cada una.
 
-El nombre de archivo es `<correlativo>-<Título>-<slug>[-parte-N].md`: el correlativo numera
-los archivos del Libro en orden de lectura contando las partes (`03-03-…-parte-1`,
-`04-03-…-parte-2`), con ceros a la izquierda para que se ordenen como se leen, y el
-número del Título dice a cuál pertenece cada uno. En `output/` las carpetas van en español (`libro-iii/`, `Book.output`); `data/` conserva el `slug`
-(`book-iii`) como clave interna.
+El nombre de archivo es `<correlativo>-<Título>-titulo-<romano>[-parte-N].md`: el
+correlativo numera los archivos del Libro en orden de lectura contando las partes
+(`03-03-titulo-iii-parte-1`, `04-03-titulo-iii-parte-2`), con ceros a la izquierda para que
+se ordenen como se leen, y el número del Título dice a cuál pertenece cada uno. El nombre
+**no lleva el título**: llegaba a 87 caracteres y Microsoft Copilot Studio rechaza nombres
+largos al subirlos como conocimiento. El título va dentro del archivo y en el `index.md`.
+En `output/` las carpetas van en español (`libro-iii/`, `Book.output`); `data/` conserva el
+`slug` (`book-iii`) como clave interna.
 
 ### 13. El PDF se verifica antes de renombrarlo
 
@@ -307,7 +310,7 @@ Todo objetivo declara **cómo se repone**, y la lista va de lo más barato a lo 
     ├── web/book-i … book-v/     extraído del portal
     │   ├── cache/*.html           el subárbol de ESE Libro y nada más
     │   ├── images/<sha>.ext
-    │   ├── markdown/<n>-<tít>-<slug>.md   un archivo por Título o parte, en orden de lectura
+    │   ├── markdown/NN-NN-titulo-<romano>[-parte-N].md   un archivo por Título o parte
     │   ├── changelog/*.md
     │   ├── state/                 documents.json + runs.jsonl del Libro
     │   ├── manifest.json · http.json · images.json · sections.json
@@ -316,7 +319,7 @@ Todo objetivo declara **cómo se repone**, y la lista va de lo más barato a lo 
     │   ├── figures.json · figures.jsonl
     │   └── changes.json
     └── pdf/book-i … book-v/      el PDF oficial, alineado al orden de la web
-        ├── markdown/<n>-<tít>-<slug>.md   mismos nombres que web/, para `diff` directo
+        ├── markdown/NN-NN-titulo-<romano>[-parte-N].md   mismos nombres que web/
         ├── images/<sha>.png        figuras embebidas en el PDF (pdfimages)
         ├── text.txt                salida cruda de pdftotext (caché)
         ├── documents.json          el PDF segmentado por los mismos pvid

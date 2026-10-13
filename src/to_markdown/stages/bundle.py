@@ -21,7 +21,7 @@ import shutil
 from datetime import UTC, datetime
 
 from ..core import BOOKS, CONFIG, OUTPUT, Book
-from .export import MAX_WORDS
+from .export import MAX_WORDS, TITLE_NUMBER
 
 BASE = CONFIG["crawl"]["base_url"]
 WORD = re.compile(r"\w+", re.UNICODE)
@@ -170,7 +170,7 @@ def excerpt(markdown: str, limit: int = 60) -> str:
 
 
 def title_roman(title: str, index: int) -> str:
-    match = re.match(r"T[íi]tulo\s+([IVXLC]+)\b", title)
+    match = TITLE_NUMBER.match(title)
     return match.group(1) if match else str(index)
 
 
@@ -479,7 +479,7 @@ def root_index(summary: list[dict]) -> str:
         "```",
         "libro-i/",
         "├── index.md                      ← empezar aquí",
-        "├── 01-01-titulo-i-afiliacion-....md",
+        "├── 01-01-titulo-i.md",
         "└── ...",
         "```",
         "",

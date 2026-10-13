@@ -6,7 +6,7 @@ Compendio de Normas del Sistema de Pensiones · Superintendencia de Pensiones de
 
 - Fuente: https://www.spensiones.cl/portal/compendio/596/w3-propertyvalue-2536.html
 - Extraído del portal: 2026-09-09T00:31:43+00:00
-- Contenido: **12 Títulos** en 21 archivos · 128 normas · 1.582 números normativos · 492 notas de actualización · 72 figuras · 200.339 palabras
+- Contenido: **12 Títulos** en 21 archivos · 128 normas · 1.582 números normativos · 492 notas de actualización · 72 figuras · 200.267 palabras
 
 Cada Título es un archivo, o varias partes si supera 15.000 palabras: se corta entre Capítulos, nunca dentro de uno, así que un Capítulo que solo ya supera ese tope queda entero en su parte. Para citar una norma se usa su Capítulo y su número: "Título III, Capítulo XXIV, N° 3".
 
@@ -16,7 +16,7 @@ Cada Título es un archivo, o varias partes si supera 15.000 palabras: se corta 
 | --- | --- | ---: | ---: | ---: | --- |
 | I | Afiliación e Incorporación a una Administradora de Fondos de Pensiones | 1 | 14 | 8.959 | NCG N° 311 (04-07-2023) |
 | II | Desafiliación | 1 | 9 | 5.745 | NCG N° 135 (28-01-2015) |
-| III | Administración de Cuentas Personales | 10 | 49 | 132.822 | NCG N° 368 (20-07-2026) |
+| III | Administración de Cuentas Personales | 10 | 49 | 132.750 | NCG N° 368 (20-07-2026) |
 | IV | Estados de Cuenta Personal | 1 | 9 | 8.840 | NCG N° 272 (13-07-2020) |
 | V | Cuenta de Ahorro de Indemnización | 1 | 5 | 7.858 | NCG N° 275 (23-09-2020) |
 | VI | Archivo Previsional | 1 | 5 | 2.630 | — |
@@ -31,27 +31,27 @@ Cada Título es un archivo, o varias partes si supera 15.000 palabras: se corta 
 
 | Archivo | Título | Parte | Normas | Palabras |
 | --- | --- | :---: | ---: | ---: |
-| `01-01-titulo-i-afiliacion-e-incorporacion-a-una-administradora-de-fondos-de-.md` | Título I Afiliación e Incorporación a una Administradora de Fondos de Pensiones | — | 14 | 8.959 |
-| `02-02-titulo-ii-desafiliacion.md` | Título II Desafiliación | — | 9 | 5.745 |
-| `03-03-titulo-iii-administracion-de-cuentas-personales-parte-1.md` | Título III Administración de Cuentas Personales | 1/10 | 4 | 14.302 |
-| `04-03-titulo-iii-administracion-de-cuentas-personales-parte-2.md` | Título III Administración de Cuentas Personales | 2/10 | 1 | 11.231 |
-| `05-03-titulo-iii-administracion-de-cuentas-personales-parte-3.md` | Título III Administración de Cuentas Personales | 3/10 | 1 | 12.187 |
-| `06-03-titulo-iii-administracion-de-cuentas-personales-parte-4.md` | Título III Administración de Cuentas Personales | 4/10 | 2 | 7.097 |
-| `07-03-titulo-iii-administracion-de-cuentas-personales-parte-5.md` | Título III Administración de Cuentas Personales | 5/10 | 1 | 24.216 |
-| `08-03-titulo-iii-administracion-de-cuentas-personales-parte-6.md` | Título III Administración de Cuentas Personales | 6/10 | 3 | 13.451 |
-| `09-03-titulo-iii-administracion-de-cuentas-personales-parte-7.md` | Título III Administración de Cuentas Personales | 7/10 | 5 | 12.302 |
-| `10-03-titulo-iii-administracion-de-cuentas-personales-parte-8.md` | Título III Administración de Cuentas Personales | 8/10 | 10 | 15.504 |
-| `11-03-titulo-iii-administracion-de-cuentas-personales-parte-9.md` | Título III Administración de Cuentas Personales | 9/10 | 4 | 15.194 |
-| `12-03-titulo-iii-administracion-de-cuentas-personales-parte-10.md` | Título III Administración de Cuentas Personales | 10/10 | 18 | 7.338 |
-| `13-04-titulo-iv-estados-de-cuenta-personal.md` | Título IV Estados de Cuenta Personal | — | 9 | 8.840 |
-| `14-05-titulo-v-cuenta-de-ahorro-de-indemnizacion.md` | Título V Cuenta de Ahorro de Indemnización | — | 5 | 7.858 |
-| `15-06-titulo-vi-archivo-previsional.md` | Título VI Archivo Previsional | — | 5 | 2.630 |
-| `16-07-titulo-vii-reclamos-anomalias-en-afiliacion-cuentas-personales-cotizac.md` | Título VII Reclamos: Anomalías en Afiliación, Cuentas Personales, Cotizaciones y Traspasos | — | 14 | 9.198 |
-| `17-08-titulo-viii-perjuicios-causados-a-los-afiliados-en-su-cuenta-de-capita.md` | Título VIII Perjuicios causados a los Afiliados en su Cuenta de Capitalización Individual por hechos u omisiones imputables a la Administradora | — | 6 | 2.238 |
-| `18-09-titulo-ix-informacion-sobre-rentabilidad-de-la-cuota-de-los-fondos-de-.md` | Título IX Información sobre Rentabilidad de la Cuota de los Fondos de Pensiones y Costo Previsional | — | 6 | 3.655 |
-| `19-10-titulo-x-contratos-de-traspasos-futuros-de-cuentas-personales-entre-ti.md` | Título X Contratos de Traspasos futuros de Cuentas Personales entre Tipos de Fondos de Pensiones según edad | — | 6 | 3.418 |
-| `20-11-titulo-xi-recaudacion-de-las-cotizaciones-al-fondo-autonomo-de-protecc.md` | Título XI Recaudación de las cotizaciones al Fondo Autónomo de Protección Previsional por el IPS | — | 1 | 12.274 |
-| `21-12-titulo-xii-de-la-informacion-sobre-la-cotizacion-con-rentabilidad-prot.md` | Título XII De la información sobre la cotización con rentabilidad protegida | — | 4 | 2.702 |
+| `01-01-titulo-i.md` | Título I Afiliación e Incorporación a una Administradora de Fondos de Pensiones | — | 14 | 8.959 |
+| `02-02-titulo-ii.md` | Título II Desafiliación | — | 9 | 5.745 |
+| `03-03-titulo-iii-parte-1.md` | Título III Administración de Cuentas Personales | 1/10 | 4 | 14.298 |
+| `04-03-titulo-iii-parte-2.md` | Título III Administración de Cuentas Personales | 2/10 | 1 | 11.223 |
+| `05-03-titulo-iii-parte-3.md` | Título III Administración de Cuentas Personales | 3/10 | 1 | 12.179 |
+| `06-03-titulo-iii-parte-4.md` | Título III Administración de Cuentas Personales | 4/10 | 2 | 7.089 |
+| `07-03-titulo-iii-parte-5.md` | Título III Administración de Cuentas Personales | 5/10 | 1 | 24.208 |
+| `08-03-titulo-iii-parte-6.md` | Título III Administración de Cuentas Personales | 6/10 | 3 | 13.443 |
+| `09-03-titulo-iii-parte-7.md` | Título III Administración de Cuentas Personales | 7/10 | 5 | 12.294 |
+| `10-03-titulo-iii-parte-8.md` | Título III Administración de Cuentas Personales | 8/10 | 10 | 15.496 |
+| `11-03-titulo-iii-parte-9.md` | Título III Administración de Cuentas Personales | 9/10 | 4 | 15.186 |
+| `12-03-titulo-iii-parte-10.md` | Título III Administración de Cuentas Personales | 10/10 | 18 | 7.334 |
+| `13-04-titulo-iv.md` | Título IV Estados de Cuenta Personal | — | 9 | 8.840 |
+| `14-05-titulo-v.md` | Título V Cuenta de Ahorro de Indemnización | — | 5 | 7.858 |
+| `15-06-titulo-vi.md` | Título VI Archivo Previsional | — | 5 | 2.630 |
+| `16-07-titulo-vii.md` | Título VII Reclamos: Anomalías en Afiliación, Cuentas Personales, Cotizaciones y Traspasos | — | 14 | 9.198 |
+| `17-08-titulo-viii.md` | Título VIII Perjuicios causados a los Afiliados en su Cuenta de Capitalización Individual por hechos u omisiones imputables a la Administradora | — | 6 | 2.238 |
+| `18-09-titulo-ix.md` | Título IX Información sobre Rentabilidad de la Cuota de los Fondos de Pensiones y Costo Previsional | — | 6 | 3.655 |
+| `19-10-titulo-x.md` | Título X Contratos de Traspasos futuros de Cuentas Personales entre Tipos de Fondos de Pensiones según edad | — | 6 | 3.418 |
+| `20-11-titulo-xi.md` | Título XI Recaudación de las cotizaciones al Fondo Autónomo de Protección Previsional por el IPS | — | 1 | 12.274 |
+| `21-12-titulo-xii.md` | Título XII De la información sobre la cotización con rentabilidad protegida | — | 4 | 2.702 |
 
 ## Qué contiene cada Título
 
@@ -65,7 +65,7 @@ Cómo empieza (texto de la SP, Libro I, Título I, Letra A Afiliación e Incorpo
 
 > La Superintendencia de Pensiones a través de la presente Letra A imparte instrucciones referidas a los procedimientos que deberán cumplir las Administradoras de Fondos de Pensiones respecto del proceso de afiliación al Sistema e incorporación a una Administradora, de los trabajadores dependientes, independientes y los afiliados voluntarios, en especial en relación a la obligación de afiliarse al Sistema de Pensiones…
 
-Archivo: `01-01-titulo-i-afiliacion-e-incorporacion-a-una-administradora-de-fondos-de-.md` · 14 normas · 8.959 palabras
+Archivo: `01-01-titulo-i.md` · 14 normas · 8.959 palabras
 
 - A. Afiliación e Incorporación a una Administradora
   - Capítulo I. Introducción — 1 número
@@ -89,7 +89,7 @@ Cómo empieza (texto de la SP, Libro I, Título II Desafiliación, Capítulo I. 
 
 > La suscripción de la solicitud de desafiliación deberá ser invocada directa y personalmente por los interesados en las Administradoras, las que deberán tener a disposición de sus afiliados, en las agencias, agencias especializadas y centros de atención, la respectiva solicitud cuyo contenido mínimo se presenta en el Anexo N° 1 del presente Título, la que deberá ser llenada computacionalmente por…
 
-Archivo: `02-02-titulo-ii-desafiliacion.md` · 9 normas · 5.745 palabras
+Archivo: `02-02-titulo-ii.md` · 9 normas · 5.745 palabras
 
 - Capítulo I. Suscripción de la Solicitud de Desafiliación — 7 números · Desafiliación
 - Capítulo II. Obligaciones de la AFP respecto al Proceso de Desafiliación — 9 números · Desafiliación, Instituto de Previsión Social, Superintendencia de Seguridad Social
@@ -104,7 +104,7 @@ Archivo: `02-02-titulo-ii-desafiliacion.md` · 9 normas · 5.745 palabras
 
 ### 3. Título III Administración de Cuentas Personales
 
-- **Tamaño:** 49 normas · 1.042 números normativos · 132.822 palabras · 13 figuras · 10 archivos
+- **Tamaño:** 49 normas · 1.042 números normativos · 132.750 palabras · 13 figuras · 10 archivos
 - **Modificaciones:** 31 NCG entre 2011 y 2026; la más reciente, NCG N° 368 del 20-07-2026
 - **Materias:** Administración de Cuentas Personales, Traspaso, Cuenta personal, Fondos de Pensiones, Afiliado, Cuenta de rezago, Ahorro Previsional Voluntario, Cotización, Afiliación voluntaria, Aviso, Compensación, Superintendencia de Pensiones, Administradora de Fondos de Pensiones, Archivo previsional, Cotización voluntaria, Cuenta de ahorro de indemnización, Cuenta de capitalización individual, Depósito de Ahorro Previsional Colectivo, Devolución de pago, Instituto de Previsión Social, Reclamo, Sistema de Pensiones de Capitalización Individual
 
@@ -112,7 +112,7 @@ Cómo empieza (texto de la SP, Libro I, Título III, Letra A Administración de 
 
 > La Ley N° 20.255, de fecha 17 de marzo de 2008, que crea el Sistema de Pensiones Solidarias, introdujo diversas modificaciones al Sistema de Pensiones regido por el D.L. N° 3.500, de 1980, tendientes a perfeccionar el sistema de capitalización individual, incorporando nuevos mecanismos e incentivos al ahorro previsional, tales como el ahorro previsional voluntario colectivo, la entrega de bonificaciones…
 
-Parte 1 de 10 · Archivo: `03-03-titulo-iii-administracion-de-cuentas-personales-parte-1.md` · 4 normas · 14.302 palabras
+Parte 1 de 10 · Archivo: `03-03-titulo-iii-parte-1.md` · 4 normas · 14.298 palabras
 
 - A. Administración de Cuentas Personales
   - Capítulo I. Introducción — 2 números
@@ -120,35 +120,35 @@ Parte 1 de 10 · Archivo: `03-03-titulo-iii-administracion-de-cuentas-personales
   - Capítulo III. Cuentas Personales — 41 números · Administración de Cuentas Personales, Cuenta personal
   - Capítulo IV. Registro de Afiliados y de Transferencias de Ahorro Previsional y de Cotizaciones de Afiliados Voluntarios — 8 números · Afiliación voluntaria, Afiliado, Ahorro Previsional Voluntario
 
-Parte 2 de 10 · Archivo: `04-03-titulo-iii-administracion-de-cuentas-personales-parte-2.md` · 1 normas · 11.231 palabras
+Parte 2 de 10 · Archivo: `04-03-titulo-iii-parte-2.md` · 1 normas · 11.223 palabras
 
 - A. Administración de Cuentas Personales
   - Capítulo V. Recaudación — 82 números · Administración de Cuentas Personales
 
-Parte 3 de 10 · Archivo: `05-03-titulo-iii-administracion-de-cuentas-personales-parte-3.md` · 1 normas · 12.187 palabras
+Parte 3 de 10 · Archivo: `05-03-titulo-iii-parte-3.md` · 1 normas · 12.179 palabras
 
 - A. Administración de Cuentas Personales
   - Capítulo VI. Actualización — 75 números · Administración de Cuentas Personales, Cuenta personal
 
-Parte 4 de 10 · Archivo: `06-03-titulo-iii-administracion-de-cuentas-personales-parte-4.md` · 2 normas · 7.097 palabras
+Parte 4 de 10 · Archivo: `06-03-titulo-iii-parte-4.md` · 2 normas · 7.089 palabras
 
 - A. Administración de Cuentas Personales
   - Capítulo VII. Comisiones — 36 números · Administración de Cuentas Personales
   - Capítulo VIII. Depósitos de Ahorro Voluntario — 29 números · Administración de Cuentas Personales, Ahorro Previsional Voluntario
 
-Parte 5 de 10 · Archivo: `07-03-titulo-iii-administracion-de-cuentas-personales-parte-5.md` · 1 normas · 24.216 palabras
+Parte 5 de 10 · Archivo: `07-03-titulo-iii-parte-5.md` · 1 normas · 24.208 palabras
 
 - A. Administración de Cuentas Personales
   - Capítulo IX. Retiros de Fondos — 107 números · Administración de Cuentas Personales, Fondos de Pensiones
 
-Parte 6 de 10 · Archivo: `08-03-titulo-iii-administracion-de-cuentas-personales-parte-6.md` · 3 normas · 13.451 palabras
+Parte 6 de 10 · Archivo: `08-03-titulo-iii-parte-6.md` · 3 normas · 13.443 palabras
 
 - A. Administración de Cuentas Personales
   - Capítulo X. Pagos en exceso — 38 números · Administración de Cuentas Personales, Cuenta personal
   - Capítulo XI. Cambio y Asignación de Fondos — 60 números · Administración de Cuentas Personales, Fondos de Pensiones
   - Capítulo XII. Distribución de Saldos y Traspasos futuros de Recursos Previsionales entre Fondos de Pensiones — 21 números · Administración de Cuentas Personales, Fondos de Pensiones, Traspaso
 
-Parte 7 de 10 · Archivo: `09-03-titulo-iii-administracion-de-cuentas-personales-parte-7.md` · 5 normas · 12.302 palabras
+Parte 7 de 10 · Archivo: `09-03-titulo-iii-parte-7.md` · 5 normas · 12.294 palabras
 
 - A. Administración de Cuentas Personales
   - Capítulo XIII. Regularización de Rezagos — 41 números · Administración de Cuentas Personales, Cotización, Cuenta de rezago
@@ -157,7 +157,7 @@ Parte 7 de 10 · Archivo: `09-03-titulo-iii-administracion-de-cuentas-personales
   - Capítulo XVI. Afiliados Voluntarios — 28 números · Administración de Cuentas Personales, Afiliación voluntaria, Sistema de Pensiones de Capitalización Individual
   - Capítulo XVII. Límite Máximo y Mínimo Imponible — 13 números · Administración de Cuentas Personales, Afiliado, Superintendencia de Pensiones
 
-Parte 8 de 10 · Archivo: `10-03-titulo-iii-administracion-de-cuentas-personales-parte-8.md` · 10 normas · 15.504 palabras
+Parte 8 de 10 · Archivo: `10-03-titulo-iii-parte-8.md` · 10 normas · 15.496 palabras
 
 - A. Administración de Cuentas Personales
   - Capítulo XVIII. Requerimientos del Traspaso entre AFP — 28 números · Administración de Cuentas Personales, Cuenta personal, Traspaso
@@ -171,7 +171,7 @@ Parte 8 de 10 · Archivo: `10-03-titulo-iii-administracion-de-cuentas-personales
   - Capítulo XXVI. Actualización en la Administradora antigua y Cartola de Cierre en el proceso de traspaso entre AFP — 19 números · Administración de Cuentas Personales, Cuenta personal, Traspaso
   - Capítulo XXVII. Traspaso electrónico de las Cuentas Personales entre AFP — 22 números · Cuenta personal, Traspaso
 
-Parte 9 de 10 · Archivo: `11-03-titulo-iii-administracion-de-cuentas-personales-parte-9.md` · 4 normas · 15.194 palabras
+Parte 9 de 10 · Archivo: `11-03-titulo-iii-parte-9.md` · 4 normas · 15.186 palabras
 
 - A. Administración de Cuentas Personales
   - Capítulo XXVIII. Controles al Traspaso electrónico de las Cuentas Personales entre AFP — 10 números · Administración de Cuentas Personales, Cuenta personal, Traspaso
@@ -179,7 +179,7 @@ Parte 9 de 10 · Archivo: `11-03-titulo-iii-administracion-de-cuentas-personales
   - Capítulo XXX. Dictámenes de Reclamos para el traspaso entre AFP — 8 números · Administración de Cuentas Personales, Reclamo, Traspaso
   - Capítulo XXXI. Canje de Traspasos — 46 números · Administración de Cuentas Personales, Traspaso
 
-Parte 10 de 10 · Archivo: `12-03-titulo-iii-administracion-de-cuentas-personales-parte-10.md` · 18 normas · 7.338 palabras
+Parte 10 de 10 · Archivo: `12-03-titulo-iii-parte-10.md` · 18 normas · 7.334 palabras
 
 - A. Administración de Cuentas Personales
   - Capítulo XXXII. Archivo de Cuentas Traspasadas y Eliminadas — 2 números · Administración de Cuentas Personales, Cuenta personal, Traspaso
@@ -203,7 +203,7 @@ Cómo empieza (texto de la SP, Libro I, Título IV Estados de Cuenta Personal, C
 
 > El presente Título contiene instrucciones respecto de la información que debe contener y los plazos para el envío a los afiliados de la Cartola Cuatrimestral, en cumplimiento de lo establecido en el inciso segundo del Artículo 31 del DL N° 3.500 de 1980.
 
-Archivo: `13-04-titulo-iv-estados-de-cuenta-personal.md` · 9 normas · 8.840 palabras
+Archivo: `13-04-titulo-iv.md` · 9 normas · 8.840 palabras
 
 - Capítulo I. Introducción — 1 número · Estado de Cuenta Personal
 - Capítulo II. Disposiciones Generales — 5 números · Cuenta de capitalización individual, Estado de Cuenta Personal
@@ -226,7 +226,7 @@ Cómo empieza (texto de la SP, Libro I Afiliación al Sistema de Pensiones del D
 
 > Los empleadores cuya relación laboral con sus trabajadores se regule por el código del trabajo y sus leyes complementarías, podrán pactar a partir del inicio del séptimo año de la relación laboral, la sustitución de las indemnizaciones a que se refiere el artículo 164 del Código del Trabajo, por una indemnización a todo evento, pagadera con motivo de la terminación…
 
-Archivo: `14-05-titulo-v-cuenta-de-ahorro-de-indemnizacion.md` · 5 normas · 7.858 palabras
+Archivo: `14-05-titulo-v.md` · 5 normas · 7.858 palabras
 
 - Anexos
   - Anexo Nº 1 Pacto de Indemnización Sustitutiva — 1 número · Pacto de indemnización sustitutiva
@@ -244,7 +244,7 @@ Cómo empieza (texto de la SP, Libro I, Título VI Archivo Previsional, Capítul
 
 > El archivo de documentos es un elemento importante en la Administración de los Fondos de Pensiones, por cuanto contiene la documentación que soporta la relación de afiliación del trabajador al Sistema de Capitalización Individual con una Administradora de Fondos de Pensiones, que da origen a derechos y obligaciones previsionales. 2.
 
-Archivo: `15-06-titulo-vi-archivo-previsional.md` · 5 normas · 2.630 palabras
+Archivo: `15-06-titulo-vi.md` · 5 normas · 2.630 palabras
 
 - Capítulo I. Introducción — 7 números · Archivo previsional
 - Capítulo II. Archivo Previsional — 19 números · Archivo previsional
@@ -263,7 +263,7 @@ Cómo empieza (texto de la SP, Libro I, Título VII, Letra A Procedimientos para
 
 > La presente Letra A define procedimientos para resolver los reclamos relativos al Sistema de Pensiones establecido por el D.L. N° 3.500, de 1980, que planteen los afiliados a una Administradora de Fondos de Pensiones, o aquellas personas que no siendo afiliados mantienen una cuenta personal o recursos en ella o cualquier empleador o ex empleador de un trabajador afiliado, en…
 
-Archivo: `16-07-titulo-vii-reclamos-anomalias-en-afiliacion-cuentas-personales-cotizac.md` · 14 normas · 9.198 palabras
+Archivo: `16-07-titulo-vii.md` · 14 normas · 9.198 palabras
 
 - A. Procedimientos para el Proceso de Gestión de Reclamos
   - Capítulo I. Introducción — 1 número · Reclamo
@@ -287,7 +287,7 @@ Cómo empieza (texto de la SP, Libro I, Título VIII Perjuicios causados a los A
 
 > El artículo 39 del D.L. N° 3.500, de 1980, reemplazado por el artículo 91 N° 27 de la Ley N° 20.255, dispone que las Administradoras serán responsables por los perjuicios causados a los afiliados en sus cuentas de capitalización individual producto del no cumplimiento oportuno de sus obligaciones, así como de las instrucciones dadas por el afiliado en el ejercicio…
 
-Archivo: `17-08-titulo-viii-perjuicios-causados-a-los-afiliados-en-su-cuenta-de-capita.md` · 6 normas · 2.238 palabras
+Archivo: `17-08-titulo-viii.md` · 6 normas · 2.238 palabras
 
 - Capítulo I. Introducción — 5 números · Administradora de Fondos de Pensiones, Afiliado, Cuenta de capitalización individual
 - Capítulo II. Causales que hacen procedente la Compensación — 1 número · Compensación, Perjuicio
@@ -306,7 +306,7 @@ Cómo empieza (texto de la SP, Libro I, Título IX, Letra A Información sobre R
 
 > El inciso tercero del artículo 31 del D.L. N° 3.500, de 1980, establece que la Administradora deberá enviar al afiliado información sobre las comisiones y sobre la rentabilidad de la cuota del Fondo de Pensiones al que el afiliado esté adscrito.
 
-Archivo: `18-09-titulo-ix-informacion-sobre-rentabilidad-de-la-cuota-de-los-fondos-de-.md` · 6 normas · 3.655 palabras
+Archivo: `18-09-titulo-ix.md` · 6 normas · 3.655 palabras
 
 - A. Información sobre Rentabilidad de la Cuota de los Fondos de Pensiones y Costo Previsional
   - Capítulo I. Introducción — 2 números · Cuenta de capitalización individual, Fondos de Pensiones, Rentabilidad
@@ -327,7 +327,7 @@ Cómo empieza (texto de la SP, Libro I, Título X Contratos de Traspasos futuros
 
 > Con el objeto de entregar a los afiliados un mecanismo adicional para ejercer su derecho a elegir los Fondos de Pensiones en los que desean mantener sus recursos y con el fin de que dichos recursos sean administrados en función del horizonte de inversión de los afiliados, el presente Título imparte normas a las Administradoras acerca de la forma de…
 
-Archivo: `19-10-titulo-x-contratos-de-traspasos-futuros-de-cuentas-personales-entre-ti.md` · 6 normas · 3.418 palabras
+Archivo: `19-10-titulo-x.md` · 6 normas · 3.418 palabras
 
 - Capítulo I. Introducción — 1 número · Cuenta personal, Traspaso
 - Capítulo II. Esquema de Traspasos futuros de Fondos según edad — 11 números · Traspaso
@@ -346,7 +346,7 @@ Cómo empieza (texto de la SP, Libro I Afiliación al Sistema de Pensiones del D
 
 > En concordancia con la nueva función definida en el número 12 del artículo 55 y de conformidad a lo establecido en el nuevo artículo 55 bis, ambas disposiciones de la Ley N° 20.255, las cuales fueron introducidas por la Ley N° 21.735, el Instituto de Previsión Social debe recaudar las cotizaciones de los empleadores establecidas en esa ley para el…
 
-Archivo: `20-11-titulo-xi-recaudacion-de-las-cotizaciones-al-fondo-autonomo-de-protecc.md` · 1 normas · 12.274 palabras
+Archivo: `20-11-titulo-xi.md` · 1 normas · 12.274 palabras
 
 - (sin subdivisiones)
 
@@ -359,7 +359,7 @@ Cómo empieza (texto de la SP, Libro I, Título XII De la información sobre la 
 
 > El inciso décimo del artículo 8 de la ley N° 21.735 establece que el Administrador del Fondo Autónomo de Protección Previsional (AFAPP) deberá disponer los medios para que la persona afiliada al Sistema de Pensiones establecido en el D.L. N° 3.500, de 1980, pueda acceder permanentemente a la información sobre el registro de las cotizaciones enteradas en virtud del mecanismo…
 
-Archivo: `21-12-titulo-xii-de-la-informacion-sobre-la-cotizacion-con-rentabilidad-prot.md` · 4 normas · 2.702 palabras
+Archivo: `21-12-titulo-xii.md` · 4 normas · 2.702 palabras
 
 - Anexos
   - Anexo I Saldo actualizado de las cotizaciones con rentabilidad protegida en U.F. — 1 número
